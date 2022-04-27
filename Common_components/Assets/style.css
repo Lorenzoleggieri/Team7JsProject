@@ -4,3 +4,17 @@
 .navbar_row{
     border-bottom: 1px solid white;
 }
+.modal_style{
+    background-color: #2CBC63;
+    border: none;
+}
+.button_header{
+    background-color: white;
+    border: none;
+}
+.button_offcanvas{
+    height: 50%;
+    width: 5%;
+    background-color: white;
+    border: none;
+}
