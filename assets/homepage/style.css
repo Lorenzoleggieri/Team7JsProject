@@ -1,0 +1,40 @@
+
+/* WE HAVE DIRECT IMPACT */
+
+
+.sec-wehave{
+    background-color: #013950;
+}
+
+.sec-wehave span{
+    color: #2cbc63;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.sec-wehave p{
+    color: #8ea7b2;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.sec-wehave>.container-fluid{
+    background-color: #ffffff;
+    border-bottom: .5px solid #e5e5e5;
+}
+
+.sec-wehave >.container-fluid>span{
+    color: #798897;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 55px;
+}
+
+.sec-wehave >.container-fluid>span>a{
+    color: #2cbc63;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+
