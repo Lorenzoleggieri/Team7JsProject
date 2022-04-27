@@ -12,7 +12,7 @@
     <!-- Header -->
    <div class="style_navbar">
         <div class="row navbar_row">
-            <div class="row justify-content-between col-10 container mx-auto">
+            <div class="row justify-content-between col-10 container mx-auto py-2">
                 <div class="col-6 d-flex"> <!-- Parte sinistra -->
                     <img src="Assets/logo.png" class="col-6" alt="logo finlab"> <!-- sub-parte sinistra: logo -->
                     <div class="container d-flex justify-content-around align-items-center col-6"> <!-- sub-parte destra: icone -->
@@ -56,11 +56,29 @@
                     </div>
                 </div> 
                 <!-- Parte destra -->
-                <div class="col-6 d-flex">
-                    <!-- Scrollable modal -->
-                    <div class="modal-dialog modal-dialog-scrollable">
-                    <!--!! FORM MODALE -->
-                    </div>
+                <div class="col-6 d-flex justify-content-end gap-2">
+                   <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary rounded" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                            Talk an experts
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-scrollable">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                ...
+                                </div>
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Understood</button>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
                     <!-- buttons  -->
                     <div class="d-grid gap-2 d-flex">
                         <button type="button" class="btn btn-outline-info rounded-circle">
@@ -89,7 +107,7 @@
                 </div>
             </div>
         </div> 
-        <div class="row col-10 container mx-auto justify-content-around">
+        <div class="row col-10 container mx-auto py-2 justify-content-around">
             <!-- offcanvas -->
             <button class="btn btn-primary col-1 rounded-circle" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
                 <svg 
