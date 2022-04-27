@@ -18,3 +18,26 @@
     background-color: white;
     border: none;
 }
+
+.borderless{
+    border: none;
+}
+
+.formButton{
+    background-color: #2CBC63;
+}
+
+.greenLink{
+    color: #2CBC63;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.textGray{
+    color: gray;
+}
+
+.canvasClose{
+    background-color: #2CBC63;
+    
+}
