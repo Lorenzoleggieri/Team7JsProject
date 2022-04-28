@@ -41,9 +41,70 @@
     background-color: #2CBC63;
     
 }
-@media (max-width: 768px){
-    .navStyleMd{
-     font-size: 50%;
-     font-weight: bold;
-    }
+
+/* WHY CHOOSE US */
+
+
+
+/* FINE WHY CHOOSE US */
+
+.textGreen{
+    color: #2CBC63;
 }
+.card-body h1{
+    font-weight: lighter;
+    color: #A69CAA;
+}
+.card{
+    border-top: none;
+    border-bottom: none;
+}
+
+.left{
+    border-left: none;
+}
+
+.right{
+    border-right: none;
+}
+
+/* footer + aside */
+
+
+footer{
+    background-color: #033b51;
+}
+
+
+.col-lg-2 a{
+    color: #A6BAC2;
+}
+
+.col-lg-2 h5{
+    color: white;
+}
+
+.Graytext, .col-lg-4 p{
+    color: #A69CAA;
+}
+.greyLink {
+    color: #A6BAC2;
+    text-decoration: none;
+}
+
+.btn-primary{
+    border: none;
+    background-color: #2CBC63;
+}
+
+aside h1{
+    color: white;
+}
+
+aside{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(https://t3.ftcdn.net/jpg/03/80/03/34/360_F_380033452_KYmG8lNrLuoe9mda5HMJ7EOYralP0WcA.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* end footer */
