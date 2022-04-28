@@ -12,9 +12,9 @@
     <!-- Header -->
    <div class="style_navbar">
         <div class="row navbar_row">
-            <div class="row justify-content-between col-10 container mx-auto py-2">
-                <div class="col-lg-6 col-md-5 col-sm-12 d-flex justify-content-sm-center"> <!-- Parte sinistra -->
-                    <img src="Assets/logo.png" class="col-lg-6 col-md-12 col-sm-12" alt="logo finlab"> <!-- sub-parte sinistra: logo -->
+            <div class="row justify-content-between align-items-center col-10 container mx-auto py-2">
+                <div class="col-lg-6 col-md-5 col-10 d-flex"> <!-- Parte sinistra -->
+                    <img src="Assets/logo.png" class="col-lg-6 col-md-12 col-10" alt="logo finlab"> <!-- sub-parte sinistra: logo -->
                     <div class="container justify-content-around align-items-center d-lg-flex col-lg-6 d-none"> <!-- sub-parte destra: icone -->
                         <svg 
                             xmlns="http://www.w3.org/2000/svg" 
@@ -55,9 +55,9 @@
                     </div>
                 </div> 
                 <!-- Parte destra -->
-                <div class="col-lg-6 col-md-7 d-lg-flex d-md-flex d-none justify-content-end gap-2">
+                <div class="col-lg-6 col-md-7 col-2 d-flex justify-content-end gap-2">
                    <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-primary modal_style rounded-pill" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        <button type="button" class="btn btn-primary modal_style rounded-pill d-lg-flex d-md-flex d-none" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                             <svg 
                                 xmlns="http://www.w3.org/2000/svg" 
                                 width="16" 
@@ -89,7 +89,7 @@
                         </div>
                     <!-- buttons  -->
                     <div class="d-grid gap-2 d-flex">
-                        <button type="button" class="btn btn-outline-info button_header rounded-circle">
+                        <button type="button" class="btn btn-outline-info button_header d-lg-flex d-md-flex d-none rounded-circle">
                             <svg 
                                 xmlns="http://www.w3.org/2000/svg" 
                                 width="16" 
@@ -100,7 +100,7 @@
                                 <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
                             </svg>
                         </button>
-                        <button type="button" class="btn btn-outline-info button_header rounded-circle">
+                        <button type="button" class="btn btn-outline-info d-lg-flex d-md-flex d-none button_header rounded-circle">
                             <svg 
                                 xmlns="http://www.w3.org/2000/svg" 
                                 width="16" 
@@ -113,12 +113,96 @@
                         </button>
                         
                     </div>
+                    <!-- menu mobile -->
+                    <button class="navbar-toggler col-2 d-flex d-lg-none rounded-circle button_header" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+                      <svg 
+                      xmlns="http://www.w3.org/2000/svg" 
+                      width="16" 
+                      height="16" 
+                      fill="grey" 
+                      class="bi bi-list" 
+                      viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                      </svg>
+                    </button>
+                   
+
+                     <div class="offcanvas offcanvas-end d-none d-md-inline d-sm-inline" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+                        <div class="offcanvas-header">
+                          <div></div>
+                          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                          <ul class="navbar-nav">
+                            <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                HomePage
+                              </a>
+                              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Home 1</a></li>
+                                <li><a class="dropdown-item" href="#">Home 2</a></li>
+                              </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Who We Are
+                              </a>
+                              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">About Us</a></li>
+                                <li><a class="dropdown-item" href="#">Our Leadership Team</a></li>
+                                <li><a class="dropdown-item" href="#">Why Choose Us</a></li>
+                                <li><a class="dropdown-item" href="#">Our History</a></li>
+                                <li><a class="dropdown-item" href="#">Careers</a></li>
+                              </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                What We Do
+                              </a>
+                              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Accounting Services</a></li>
+                                <li><a class="dropdown-item" href="#">Capital Investments</a></li>
+                                <li><a class="dropdown-item" href="#">Finance & Restructuring</a></li>
+                                <li><a class="dropdown-item" href="#">Financial Consultant</a></li>
+                                <li><a class="dropdown-item" href="#">Portfolio Management</a></li>
+                                <li><a class="dropdown-item" href="#">Technology Advisory</a></li>
+                                <li><a class="dropdown-item" href="#">All Services Pages</a></li>
+                              </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Case Studies
+                              </a>
+                              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Cases Grid 1</a></li>
+                                <li><a class="dropdown-item" href="#">Cases Grid 2</a></li>
+                                <li><a class="dropdown-item" href="#">Cases Grid 3</a></li>
+                              </ul>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Blog & Insights
+                              </a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Shop
+                              </a>
+                             
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Contact Us
+                              </a>
+                            </li>
+                          </ul>                        </div>
+                      </div>
                 </div>
             </div>
         </div> 
-        <div class="row col-10 container mx-auto py-2 py-md-0 justify-content-around">
+        <div class="row col-10 container d-none d-lg-flex mx-auto py-2 py-md-0 justify-content-around">
             <!-- offcanvas -->
-            <button class="btn btn-primary align-self-center d-lg-flex col-lg-1 d-none   button_offcanvas rounded-circle" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
+            <button class="btn btn-primary align-self-center d-lg-flex col-lg-1 d-none button_offcanvas rounded-circle" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
                 <svg 
                     xmlns="http://www.w3.org/2000/svg" 
                     width="20" 
