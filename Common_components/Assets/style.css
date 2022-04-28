@@ -41,3 +41,9 @@
     background-color: #2CBC63;
     
 }
+@media (max-width: 768px){
+    .navStyleMd{
+     font-size: 50%;
+     font-weight: bold;
+    }
+}

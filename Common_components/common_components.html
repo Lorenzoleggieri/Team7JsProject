@@ -13,9 +13,9 @@
    <div class="style_navbar">
         <div class="row navbar_row">
             <div class="row justify-content-between col-10 container mx-auto py-2">
-                <div class="col-6 d-flex"> <!-- Parte sinistra -->
-                    <img src="Assets/logo.png" class="col-6" alt="logo finlab"> <!-- sub-parte sinistra: logo -->
-                    <div class="container d-flex justify-content-around align-items-center col-6"> <!-- sub-parte destra: icone -->
+                <div class="col-lg-6 col-md-5 col-sm-12 d-flex justify-content-sm-center"> <!-- Parte sinistra -->
+                    <img src="Assets/logo.png" class="col-lg-6 col-md-12 col-sm-12" alt="logo finlab"> <!-- sub-parte sinistra: logo -->
+                    <div class="container justify-content-around align-items-center d-lg-flex col-lg-6 d-none"> <!-- sub-parte destra: icone -->
                         <svg 
                             xmlns="http://www.w3.org/2000/svg" 
                             width="16" 
@@ -55,7 +55,7 @@
                     </div>
                 </div> 
                 <!-- Parte destra -->
-                <div class="col-6 d-flex justify-content-end gap-2">
+                <div class="col-lg-6 col-md-7 d-lg-flex d-md-flex d-none justify-content-end gap-2">
                    <!-- Button trigger modal -->
                         <button type="button" class="btn btn-primary modal_style rounded-pill" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                             <svg 
@@ -111,13 +111,14 @@
                                 <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
                             </svg>
                         </button>
+                        
                     </div>
                 </div>
             </div>
         </div> 
-        <div class="row col-10 container mx-auto py-2 justify-content-around">
+        <div class="row col-10 container mx-auto py-2 py-md-0 justify-content-around">
             <!-- offcanvas -->
-            <button class="btn btn-primary align-self-center col-1 button_offcanvas rounded-circle" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
+            <button class="btn btn-primary align-self-center d-lg-flex col-lg-1 d-none   button_offcanvas rounded-circle" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
                 <svg 
                     xmlns="http://www.w3.org/2000/svg" 
                     width="20" 
@@ -131,7 +132,7 @@
             <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
             <div class="offcanvas-header">
               <div></div>
-                <button type="button" class="btn-close text-reset canvasClose" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              <button type="button" class="btn-close text-reset canvasClose" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body">
               <div class="card borderless">
@@ -162,7 +163,7 @@
             </div>
             <!-- end offcanvas -->
             <!-- navbar -->
-            <nav class="navbar navbar-expand-lg col-11 navbar-dark">
+            <nav class="navbar navbar-expand-lg navbar-expand-md navStyleMd col-md-12 col-lg-11 navbar-dark">
                 <div class="container-fluid">
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
