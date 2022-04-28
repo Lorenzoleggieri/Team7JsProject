@@ -48,6 +48,20 @@
 
 /* FINE WHY CHOOSE US */
 
+/* FORM */
+.formCardStyle{
+    border: none;
+}
+.formCardStyle select{
+    /* background: rgb(235,242,245); */
+    border: none;
+
+}
+.formSide{
+    background-color: rgb(235,242,245);
+}
+/* END FORM */
+
 .textGreen{
     color: #2CBC63;
 }

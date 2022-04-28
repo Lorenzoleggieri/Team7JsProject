@@ -116,12 +116,10 @@
               aria-labelledby="staticBackdropLabel"
               aria-hidden="true"
             >
-              <div class="modal-dialog modal-dialog-scrollable">
+              <div class="modal-dialog modal-lg modal-dialog-scrollable">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="staticBackdropLabel">
-                      Modal title
-                    </h5>
+                    <div></div>
                     <button
                       type="button"
                       class="btn-close"
@@ -130,20 +128,67 @@
                     ></button>
                   </div>
                   <div class="modal-body">
-                    <!-- !FORM -->
-                  </div>
-                  <div class="modal-footer">
-                    <button
-                      type="button"
-                      class="btn btn-secondary"
-                      data-bs-dismiss="modal"
-                    >
-                      Close
-                    </button>
-                    <button type="button" class="btn btn-primary">
-                      Understood
-                    </button>
-                  </div>
+                    <div class="col-12 p-3">
+                      <div class="card-body h-100">
+                       <form action="" class="d-flex flex-column justify-content-evenly h-100">
+                          <div class="row">
+                            <label class="col-3" for="iAm">I'm a/an</label>
+                            <select id="iAm" class="form-select col" aria-label="Default select example">
+                              <option value="freelancer" selected>Freelancer/ Own Business</option>
+                              <option value="other">Other Options</option>
+                            </select>
+                          </div>
+                          <div class="row">
+                            <label class="col-3" for="iWant">I want</label>
+                            <select id="iWant" class="form-select col" aria-label="Default select example">
+                              <option value="callMe" selected>Call me to Discuss my Questions</option>
+                              <option value="digitalProspectus">Email me your digital prospectus</option>
+                              <option value="informationPack">Email me your full information pack</option>
+                            </select>
+                          </div>
+                          <div class="row">
+                            <label class="col-3" for="iAm">I interested</label>
+                            <select id="iInterested" class="form-select col" aria-label="Default select example">
+                              <option value="finConsult" selected>Financial Consultant</option>
+                              <option value="accServices">Accounting Services</option>
+                              <option value="taxServices">Tax Services</option>
+                              <option value="careers">Careers</option>
+                              <option value="additionalInfo">Request Additional Information</option>
+                            </select>
+                          </div> 
+                            <div class="d-flex flex-column">
+                              <label for="Name" class="form-label">Your Name*</label>
+                              <input type="text" class="form-control " id="Name" placeholder="E.g.: John Doe" required>
+                            </div>
+                            <div class="row">
+                            <div class="d-flex w-50 flex-column">
+                              <label for="Email" class="form-label">Your Email*</label>
+                              <input type="email" class="form-control " id="Email" placeholder="name@company.com" required>
+                            </div>
+                            <div class="d-flex w-50 flex-column">
+                              <label for="Number" class="form-label">Phone Number*</label>
+                              <input type="number" class="form-control" id="Number" placeholder="Full Number">
+                            </div>
+                          </div>
+                            <div class="d-flex flex-column">
+                              <label for="text" class="form-label">Message</label>
+                              <textarea name="Enter Message" id="text" cols="30" rows="5"></textarea>
+                            </div>
+                           
+                            <div class="d-flex flex-column">
+                              <div class="form-check">
+                                <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" aria-describedby="invalidCheck3Feedback" checked required>
+                                <label class="form-check-label" for="invalidCheck3">
+                                  I Agree to receive comunication from FinLab
+                                </label>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <button class="btn btn-primary col-12 mx-auto" type="submit">Send Message</button>
+                            </div>
+                       </form>
+                      </div>
+                    </div>                  </div>
                 </div>
               </div>
             </div>
@@ -657,7 +702,7 @@
           We help you to secure a stable and fulfilling financial future
         </p>
         <div class="card-group">
-          <div class="card left px-5"> 
+          <div class="card left px-lg-5"> 
             <div class="card-body">
               <h1>01.</h1>
               <h2 class="card-title textGreen">Experienced.</h2>
@@ -668,7 +713,7 @@
               </p>
             </div>
           </div>
-          <div class="card px-5">
+          <div class="card px-lg-5">
             <div class="card-body">
               <h1>02.</h1>
               <h2 class="card-title textGreen">Convenience.</h2>
@@ -679,7 +724,7 @@
               </p>
             </div>
           </div>
-          <div class="card right px-5">
+          <div class="card right px-lg-5">
             <div class="card-body">
               <h1>03.</h1>
               <h2 class="card-title textGreen">Support.</h2>
@@ -699,6 +744,81 @@
     </section>
 
     <!-- FINE WHY CHOOSE US -->
+
+    <!-- FORM SECTION -->
+    <div class="container mx-auto">
+    <div class="card mb-3 formCardStyle h-100">
+      <div class="row g-0">    
+        <div class="col-lg-6 formSide col-12 p-3">
+          <div class="card-body h-100">
+           <form action="" class="d-flex flex-column justify-content-evenly h-100">
+              <div class="row">
+                <label class="col-3" for="iAm">I'm a/an</label>
+                <select id="iAm" class="form-select col" aria-label="Default select example">
+                  <option value="freelancer" selected>Freelancer/ Own Business</option>
+                  <option value="other">Other Options</option>
+                </select>
+              </div>
+              <div class="row">
+                <label class="col-3" for="iWant">I want</label>
+                <select id="iWant" class="form-select col" aria-label="Default select example">
+                  <option value="callMe" selected>Call me to Discuss my Questions</option>
+                  <option value="digitalProspectus">Email me your digital prospectus</option>
+                  <option value="informationPack">Email me your full information pack</option>
+                </select>
+              </div>
+              <div class="row">
+                <label class="col-3" for="iAm">I interested</label>
+                <select id="iInterested" class="form-select col" aria-label="Default select example">
+                  <option value="finConsult" selected>Financial Consultant</option>
+                  <option value="accServices">Accounting Services</option>
+                  <option value="taxServices">Tax Services</option>
+                  <option value="careers">Careers</option>
+                  <option value="additionalInfo">Request Additional Information</option>
+                </select>
+              </div> 
+                <div class="d-flex flex-column">
+                  <label for="Name" class="form-label">Your Name*</label>
+                  <input type="text" class="form-control " id="Name" placeholder="E.g.: John Doe" required>
+                </div>
+                <div class="row">
+                <div class="d-flex w-50 flex-column">
+                  <label for="Email" class="form-label">Your Email*</label>
+                  <input type="email" class="form-control " id="Email" placeholder="name@company.com" required>
+                </div>
+                <div class="d-flex w-50 flex-column">
+                  <label for="Number" class="form-label">Phone Number*</label>
+                  <input type="number" class="form-control" id="Number" placeholder="Full Number">
+                </div>
+              </div>
+                <div class="d-flex flex-column">
+                  <label for="text" class="form-label">Message</label>
+                  <textarea name="Enter Message" id="text" cols="30" rows="5"></textarea>
+                </div>
+               
+                <div class="d-flex flex-column">
+                  <div class="form-check">
+                    <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" aria-describedby="invalidCheck3Feedback" checked required>
+                    <label class="form-check-label" for="invalidCheck3">
+                      I Agree to receive comunication from FinLab
+                    </label>
+                  </div>
+                </div>
+                <div class="row">
+                  <button class="btn btn-primary col-12 mx-auto" type="submit">Send Message</button>
+                </div>
+           </form>
+          </div>
+        </div>
+        <div class="col-lg-6 h-100 d-lg-flex d-none">
+          <img src="https://fin.21lab.co/wp-content/uploads/2021/09/bg-ctf.jpg" class="img-fluid rounded-start" alt="...">
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- END FORM SECTION -->
+
 
     <!-- Aside -->
 
@@ -840,20 +960,20 @@
             <li class="ms-3">
               <a class="link-dark" href="#"
                 ><svg class="bi" width="24" height="24">
-                  <use xlink:href="#twitter"></use></svg
-              ></a>
+                  <use xlink:href="#twitter"></use>
+                  </svg></a>
             </li>
             <li class="ms-3">
               <a class="link-dark" href="#"
                 ><svg class="bi" width="24" height="24">
-                  <use xlink:href="#instagram"></use></svg
-              ></a>
+                  <use xlink:href="#instagram"></use>
+                  </svg></a>
             </li>
             <li class="ms-3">
               <a class="link-dark" href="#"
                 ><svg class="bi" width="24" height="24">
-                  <use xlink:href="#facebook"></use></svg
-              ></a>
+                  <use xlink:href="#facebook"></use>
+                  </svg ></a>
             </li>
           </ul>
         </div>
