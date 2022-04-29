@@ -42,11 +42,15 @@
     
 }
 
-/* WHY CHOOSE US */
+/* PORTRAIT */
 
+.rounded-pill{
+    background-color: #e0ecf0;
+    color: black;
+    border: none;
+}
 
-
-/* FINE WHY CHOOSE US */
+/* FINE PORTRAIT */
 
 /* FORM */
 .formCardStyle{
