@@ -4,6 +4,17 @@
     font-size: 14px;
 }
 
+.title-link{
+    color: #0d4359;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.title-link:hover{
+    color: #0d4359;
+}
+
 /* HEADER */
 
 header{
@@ -180,4 +191,46 @@ header{
     text-decoration: none;
 }
 
+/* FROM OUR BLOG - FINANCE NEWS AND GUIDELINES */
 
+.sec-finance > .container > .row > div:last-of-type > a{
+    color:#798897
+}
+
+.sec-finance > .container > .row > div:last-of-type > a:hover{
+    color:#798897
+}
+
+.finance-link{
+    color: #023a51;
+    font-size: 17px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.finance-link:hover{
+    color: #023a51;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.sec-finance .container{
+    border-bottom: .5px solid #e5e5e5;
+}
+
+
+/* SOME A FEW OF OUR CLIENTS, PARTNERS & ACCREDITATIONS */
+
+.sec-clients > .container > .row > div:last-of-type > a{
+    color:#798897
+}
+
+.sec-clients > .container > .row > div:last-of-type > a:hover{
+    color:#798897
+}
+
+.sec-clients img{
+    width: 208px;
+    height: 108px;
+    border: 1px solid silver;
+}
