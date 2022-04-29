@@ -1,15 +1,15 @@
+.title-span{
+    color: #2cbc63;
+    font-weight: 700;
+    font-size: 14px;
+}
+
 
 /* WE HAVE DIRECT IMPACT */
 
 
 .sec-wehave{
     background-color: #013950;
-}
-
-.sec-wehave span{
-    color: #2cbc63;
-    font-weight: 700;
-    font-size: 14px;
 }
 
 .sec-wehave p{
@@ -31,6 +31,63 @@
 }
 
 .sec-wehave >.container-fluid>span>a{
+    color: #2cbc63;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+
+/* INDUSTRIES WE SERVE */
+
+
+.sec-industries{
+    padding-top: 70px;
+}
+
+.sec-industries >* h3{
+    font-size: 54px;
+    font-weight: 700;
+    max-width: 15ch;
+}
+
+.sec-industries ul{
+    border-top: .5px solid #e5e5e5;
+    list-style-type: none;
+}
+
+.sec-industries ul li{
+    padding-top: 1rem;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.sec-industries ul li:first-child{
+    padding-top: 30px;
+}
+
+.sec-industries ul li a{
+    text-decoration: none;
+    color: #5c667d;
+}
+
+.sec-industries ul li a:hover{
+    color: #2cbc63
+}
+
+.sec-industries .row img{
+    width: 370px;
+    height: 246px;
+}
+
+.sec-industries >.container-fluid>span{
+    color: #798897;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 55px;
+}
+
+.sec-industries >.container-fluid>span>a{
     color: #2cbc63;
     font-size: 24px;
     font-weight: 700;
