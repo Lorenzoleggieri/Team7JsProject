@@ -4,6 +4,52 @@
     font-size: 14px;
 }
 
+/* Header */
+
+.style_navbar{
+    background-color: #1741551b;
+}
+.navbar_row{
+    border-bottom: 1px solid white;
+}
+.modal_style{
+    background-color: #2CBC63;
+    border: none;
+}
+.button_header{
+    background-color: white;
+    border: none;
+}
+.button_offcanvas{
+    height: 50%;
+    width: 5%;
+    background-color: white;
+    border: none;
+}
+
+.borderless{
+    border: none;
+}
+
+.formButton{
+    background-color: #2CBC63;
+}
+
+.greenLink{
+    color: #2CBC63;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.textGray{
+    color: gray;
+}
+
+.canvasClose{
+    background-color: #2CBC63;
+    
+}
+
 
 /* WE HAVE DIRECT IMPACT */
 
