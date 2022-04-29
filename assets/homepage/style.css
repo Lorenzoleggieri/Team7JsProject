@@ -4,6 +4,92 @@
     font-size: 14px;
 }
 
+/* HEADER */
+
+header{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.style_navbar{
+    background-color: #1741551b;
+}
+
+.navbar_row{
+    border-bottom: 1px solid white;
+}
+
+.modal_style{
+    background-color: #2CBC63;
+    border: none;
+}
+
+.button_header{
+    background-color: white;
+    border: none;
+}
+
+.button_offcanvas{
+    height: 50%;
+    width: 5%;
+    background-color: white;
+    border: none;
+}
+
+.borderless{
+    border: none;
+}
+
+.formButton{
+    background-color: #2CBC63;
+}
+
+.greenLink{
+    color: #2CBC63;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.textGray{
+    color: gray;
+}
+
+.canvasClose{
+    background-color: #2CBC63;
+}
+
+.modal-backdrop{
+    z-index: 0;
+}
+
+/* SECTION HERO */
+
+.hero-roundbutton{
+    border-radius: 30px;
+   font-size: 1.5vw;
+   }
+
+   .hero-text-color{
+       color: white;
+   }
+
+   .hero-position{
+       top: 45%;
+       font-size: 10rem;
+       width:30%
+   }
+
+   .hero-adaptive-text-size{
+       font-size: 3vw;
+   }
+
+   .carousel-control-next, .carousel-control-prev{
+       z-index: 0;
+   }
+
 
 /* WE HAVE DIRECT IMPACT */
 
