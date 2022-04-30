@@ -124,6 +124,21 @@ header{
 }
 
 
+/* SERVICES WE PROVIDE*/
+
+.sec-servicesweprovide >* h3{
+    font-size: 54px;
+    font-weight: 700;
+    max-width: 15ch;
+}
+
+.sec-servicesweprovide >* h2 {
+  font-size: 5vw;
+  color:#2cbc63
+
+}
+
+
 /* INDUSTRIES WE SERVE */
 
 
