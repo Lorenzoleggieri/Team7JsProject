@@ -69,8 +69,8 @@ header{
     text-decoration: none;
 }
 
-.textGray{
-    color: gray;
+.textgray{
+    color:#798897;
 }
 
 .canvasClose{
@@ -236,6 +236,26 @@ header{
     font-weight: 700;
     text-decoration: none;
 }
+
+/* OUR PEOPLE */
+
+.sec-our-people{
+
+    background: rgb(255,255,255);
+background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(165,254,251,0.2) 100%);
+}
+
+.sec-our-people >* h3{
+    font-size: 54px;
+    font-weight: 700;
+    max-width: 15ch;
+}
+
+.sec-our-people-border-color{
+    border-color: #013950 !important;
+}
+
+
 
 /* FROM OUR BLOG - FINANCE NEWS AND GUIDELINES */
 
