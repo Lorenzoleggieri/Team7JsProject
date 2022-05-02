@@ -4,6 +4,11 @@
     font-size: 14px;
 }
 
+body{
+    overflow-x: hidden;
+
+}
+
 .title-link{
     color: #0d4359;
     text-decoration: none;
@@ -134,6 +139,47 @@ header{
     text-decoration: none;
 }
 
+
+/* SERVICES WE PROVIDE*/
+
+
+.sec-servicesweprovide{
+    position: relative;
+    z-index: -2;
+    overflow: hidden;
+}
+.sec-servicesweprovide >* h3{
+    font-size: 54px;
+    font-weight: 700;
+    max-width: 15ch;
+}
+
+.sec-servicesweprovide >* h2 {
+  font-size: 5vw;
+  color:#2cbc63
+
+}
+
+.sec-servicesweprovide >* h4 {
+    font-size: 24px;
+  
+  }
+
+.servicesweprovide-lightgray{
+    color: #9EA4B1;
+}
+
+.sec-servicesweprovide button{
+    width:20%;
+}
+
+.services-we-provide-bg-image{
+    position: absolute;
+    bottom: 0;
+    right: -240px;
+    z-index: -1;
+    max-height: 350px;
+}
 
 /* INDUSTRIES WE SERVE */
 
