@@ -1,0 +1,36 @@
+.btnContact{
+    background-color: #2cbc63;;
+    border: none;
+}
+
+.getStartedCard {
+
+    border: none;
+    border-top: rgb(79, 77, 77) solid 1px;
+    background: none;
+    
+}
+.getStartedCard h5{
+    color: white;
+}
+
+.getStartedCard p{
+color: #a6bac2;
+}
+
+
+.secContact{
+background-color: #033b51;
+background-image:url(https://fin.21lab.co/wp-content/uploads/2021/09/globe-bg.png);
+background-repeat: no-repeat;
+
+}
+
+.secContact h1{
+    color: white;
+    font-size: 4rem;
+}
+
+.secContact li{
+    color:#2cbc63
+}
