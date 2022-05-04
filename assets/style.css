@@ -1,6 +1,13 @@
+.secContact li{
+    color:#2cbc63;
+    font-weight: 700;
+}
 .btnContact{
     background-color: #2cbc63;;
     border: none;
+}
+.myCard{
+    width: 30%;
 }
 
 .getStartedCard {
@@ -8,6 +15,7 @@
     border: none;
     border-top: rgb(79, 77, 77) solid 1px;
     background: none;
+    border-radius: 0;
     
 }
 .getStartedCard h5{
@@ -16,6 +24,7 @@
 
 .getStartedCard p{
 color: #a6bac2;
+margin-bottom: 0;
 }
 
 
@@ -23,6 +32,7 @@ color: #a6bac2;
 background-color: #033b51;
 background-image:url(https://fin.21lab.co/wp-content/uploads/2021/09/globe-bg.png);
 background-repeat: no-repeat;
+background-position: right;
 
 }
 
@@ -31,6 +41,20 @@ background-repeat: no-repeat;
     font-size: 4rem;
 }
 
-.secContact li{
-    color:#2cbc63
+
+@media screen and (max-width: 768px){
+    .secContact h1{
+        font-size: 2.7rem;
+    }
+    .myCard{
+        width: 45%
+    }
+}
+@media screen and (max-width: 576px){
+    .secContact h1{
+        font-size: 1.5rem;
+    }
+    .myCard{
+        width: 100%
+    }
 }
