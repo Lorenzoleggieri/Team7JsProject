@@ -1,3 +1,58 @@
+/* header */
+
+
+.style_navbar{
+    background-color: #205774c1;
+    position: absolute;
+    
+
+}
+.navbar_row{
+    border-bottom: 1px solid white;
+}
+.modal_style{
+    background-color: #2CBC63;
+    border: none;
+}
+.button_header{
+    background-color: white;
+    border: none;
+}
+.button_offcanvas{
+    height: 50%;
+    width: 5%;
+    background-color: white;
+    border: none;
+}
+
+.borderless{
+    border: none;
+}
+
+.formButton{
+    background-color: #2CBC63;
+    border: none;
+}
+
+.greenLink{
+    color: #2CBC63;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.textGray{
+    color: gray;
+}
+
+.canvasClose{
+    background-color: #2CBC63;
+
+}
+
+/* fine header */
+
+/* ready to get started */
+
 .secContact li{
     color:#2cbc63;
     font-weight: 700;
@@ -33,6 +88,9 @@ background-color: #033b51;
 background-image:url(https://fin.21lab.co/wp-content/uploads/2021/09/globe-bg.png);
 background-repeat: no-repeat;
 background-position: right;
+padding: 13rem 0rem 6rem 0rem;
+
+
 
 }
 
@@ -42,7 +100,100 @@ background-position: right;
 }
 
 
+
+
+/* fine ready to get started */
+
+/* FORM */
+.formCardStyle{
+    border: none;
+    padding-top: 6rem;
+}
+.formCardStyle select{
+ background: rgb(235,242,245); 
+    border: none;
+
+}
+.formSide{
+    background-color: rgb(235,242,245);
+}
+
+/* END FORM */
+
+/* why choose us */
+
+.textGreen{
+    color: #2CBC63;
+}
+.card-body h1{
+    font-weight: lighter;
+    color: #A69CAA;
+}
+.card{
+    border-top: none;
+    border-bottom: none;
+}
+
+.left{
+    border-left: none;
+}
+
+.right{
+    border-right: none;
+}
+
+/* end why choose us */
+
+/* footer + aside */
+
+
+footer{
+    background-color: #033b51;
+}
+
+
+.col-lg-2 a{
+    color: #A6BAC2;
+}
+
+.col-lg-2 h5{
+    color: white;
+}
+
+.Graytext, .col-lg-4 p{
+    color: #A69CAA;
+}
+.greyLink {
+    color: #A6BAC2;
+    text-decoration: none;
+}
+
+.btn-primary{
+    border: none;
+    background-color: #2CBC63;
+}
+
+aside h1{
+    color: white;
+}
+
+aside{
+    background-color: #033b51;
+    background-image:url(https://fin.21lab.co/wp-content/uploads/2021/09/globe-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+/* end footer */
+
 @media screen and (max-width: 768px){
+    
+    .secContact{
+        padding-top: 8rem;
+            
+        }
+    
     .secContact h1{
         font-size: 2.7rem;
     }
@@ -51,9 +202,15 @@ background-position: right;
     }
 }
 @media screen and (max-width: 576px){
+
+    .secContact{
+    padding-top: 6rem;
+        
+    }
     .secContact h1{
         font-size: 1.5rem;
     }
+
     .myCard{
         width: 100%
     }
