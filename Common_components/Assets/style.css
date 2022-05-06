@@ -1,3 +1,9 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    max-height: 100%;
+}
 /* HEADER */
 .row{
     margin: 0%;
@@ -67,10 +73,11 @@
     background-repeat: no-repeat;
     background-size: cover;
     padding: 5rem 3rem;
+    position: absolute;
     
 }
 .hero{
-    position:absolute;
+    position:relative;
     padding:0;
 }
 .ctaHero{
@@ -204,7 +211,16 @@ aside{
     }
 }
 @media screen and (max-width: 576px) {
+    .techAdv{
+        padding: 2rem 0 7rem 0;
+    }
     .techAdv h1{
         font-size: 2rem;
+    }
+    .techAdvhero{
+        padding: 7rem 0;
+    }
+    .services{
+        padding-top: 10rem;
     }
 }
