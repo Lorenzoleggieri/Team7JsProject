@@ -784,7 +784,7 @@
 
     <!-- PORTRAIT -->
 
-    <section>
+    <section class="portrait">
       <div
         class=" py-5 container mx-auto text-center flex-column d-flex align-items-center"
       >
@@ -932,142 +932,142 @@
 
 </div>
     <!-- END INDUSTRIES WE SERVE -->
-    <!-- FORM SECTION -->
-    <div class="container mx-auto">
-      <div class="card mb-3 formCardStyle h-100">
-        <div class="row g-0">
-          <div class="col-lg-6 formSide col-12 p-3">
-            <div class="card-body h-100">
-              <form
-                action=""
-                class="d-flex flex-column justify-content-evenly h-100"
-              >
-                <div class="row">
-                  <label class="col-3" for="iAm">I'm a/an</label>
-                  <select
-                    id="iAm"
-                    class="form-select col"
-                    aria-label="Default select example"
-                  >
-                    <option value="freelancer" selected>
-                      Freelancer/ Own Business
-                    </option>
-                    <option value="other">Other Options</option>
-                  </select>
-                </div>
-                <div class="row">
-                  <label class="col-3" for="iWant">I want</label>
-                  <select
-                    id="iWant"
-                    class="form-select col"
-                    aria-label="Default select example"
-                  >
-                    <option value="callMe" selected>
-                      Call me to Discuss my Questions
-                    </option>
-                    <option value="digitalProspectus">
-                      Email me your digital prospectus
-                    </option>
-                    <option value="informationPack">
-                      Email me your full information pack
-                    </option>
-                  </select>
-                </div>
-                <div class="row">
-                  <label class="col-3" for="iAm">I interested</label>
-                  <select
-                    id="iInterested"
-                    class="form-select col"
-                    aria-label="Default select example"
-                  >
-                    <option value="finConsult" selected>
-                      Financial Consultant
-                    </option>
-                    <option value="accServices">Accounting Services</option>
-                    <option value="taxServices">Tax Services</option>
-                    <option value="careers">Careers</option>
-                    <option value="additionalInfo">
-                      Request Additional Information
-                    </option>
-                  </select>
-                </div>
-                <div class="d-flex flex-column">
-                  <label for="Name" class="form-label">Your Name*</label>
+  <!-- FORM SECTION -->
+  <div class="container mx-auto">
+    <div class="card mb-3 formCardStyle h-100">
+      <div class="row g-0">
+        <div class="col-lg-6 formSide col-12 p-3">
+          <div class="card-body h-100">
+            <form
+              action=""
+              class="d-flex flex-column justify-content-evenly h-100"
+            >
+              <div class="d-flex flex-column flex-md-row flex-lg-row">
+                <label class="col-3" for="iAm">I'm a/an</label>
+                <select
+                  id="iAm"
+                  class="form-select col"
+                  aria-label="Default select example"
+                >
+                  <option value="freelancer" selected>
+                    Freelancer/ Own Business
+                  </option>
+                  <option value="other">Other Options</option>
+                </select>
+              </div>
+              <div class="d-flex flex-column flex-md-row flex-lg-row">
+                <label class="col-3" for="iWant">I want</label>
+                <select
+                  id="iWant"
+                  class="form-select col"
+                  aria-label="Default select example"
+                >
+                  <option value="callMe" selected>
+                    Call me to Discuss my Questions
+                  </option>
+                  <option value="digitalProspectus">
+                    Email me your digital prospectus
+                  </option>
+                  <option value="informationPack">
+                    Email me your full information pack
+                  </option>
+                </select>
+              </div>
+              <div class="d-flex flex-column flex-md-row flex-lg-row">
+                <label class="col-6 col-md-3 col-lg-3" for="iAm">I interested</label>
+                <select
+                  id="iInterested"
+                  class="form-select col"
+                  aria-label="Default select example"
+                >
+                  <option value="finConsult" selected>
+                    Financial Consultant
+                  </option>
+                  <option value="accServices">Accounting Services</option>
+                  <option value="taxServices">Tax Services</option>
+                  <option value="careers">Careers</option>
+                  <option value="additionalInfo">
+                    Request Additional Information
+                  </option>
+                </select>
+              </div>
+              <div class="d-flex flex-column">
+                <label for="Name" class="form-label">Your Name*</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="Name"
+                  placeholder="E.g.: John Doe"
+                  required
+                />
+              </div>
+              <div class="d-flex flex-column flex-md-row flex-lg-row">
+                <div class="d-flex w-100 flex-column">
+                  <label for="Email" class="form-label">Your Email*</label>
                   <input
-                    type="text"
+                    type="email"
                     class="form-control"
-                    id="Name"
-                    placeholder="E.g.: John Doe"
+                    id="Email"
+                    placeholder="name@company.com"
                     required
                   />
                 </div>
-                <div class="row">
-                  <div class="d-flex w-50 flex-column">
-                    <label for="Email" class="form-label">Your Email*</label>
-                    <input
-                      type="email"
-                      class="form-control"
-                      id="Email"
-                      placeholder="name@company.com"
-                      required
-                    />
-                  </div>
-                  <div class="d-flex w-50 flex-column">
-                    <label for="Number" class="form-label">Phone Number*</label>
-                    <input
-                      type="number"
-                      class="form-control"
-                      id="Number"
-                      placeholder="Full Number"
-                    />
-                  </div>
+                <div class="d-flex w-100 flex-column">
+                  <label for="Number" class="form-label">Phone Number*</label>
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="Number"
+                    placeholder="Full Number"
+                  />
                 </div>
-                <div class="d-flex flex-column">
-                  <label for="text" class="form-label">Message</label>
-                  <textarea
-                    name="Enter Message"
-                    id="text"
-                    cols="30"
-                    rows="5"
-                  ></textarea>
-                </div>
+              </div>
+              <div class="d-flex flex-column">
+                <label for="text" class="form-label">Message</label>
+                <textarea
+                  name="Enter Message"
+                  id="text"
+                  cols="30"
+                  rows="5"
+                ></textarea>
+              </div>
 
-                <div class="d-flex flex-column">
-                  <div class="form-check">
-                    <input
-                      class="form-check-input is-invalid"
-                      type="checkbox"
-                      value=""
-                      id="invalidCheck3"
-                      aria-describedby="invalidCheck3Feedback"
-                      checked
-                      required
-                    />
-                    <label class="form-check-label" for="invalidCheck3">
-                      I Agree to receive comunication from FinLab
-                    </label>
-                  </div>
+              <div class="d-flex flex-column">
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="invalidCheck3"
+                    aria-describedby="invalidCheck3Feedback"
+                    checked
+                    required
+                  />
+                  <label class="form-check-label" for="invalidCheck3">
+                    I Agree to receive comunication from FinLab
+                  </label>
                 </div>
-                <div class="row">
-                  <button class="btn btn-primary col-12 mx-auto" type="submit">
-                    Send Message
-                  </button>
-                </div>
-              </form>
-            </div>
+              </div>
+              <div class="row">
+                <button class="btn btn-primary col-12 mx-auto formButton" type="submit">
+                  Send Message
+                </button>
+              </div>
+            </form>
           </div>
-          <div class="col-lg-6 h-100 d-lg-flex d-none">
-            <img
-              src="https://fin.21lab.co/wp-content/uploads/2021/09/bg-ctf.jpg"
-              class="img-fluid rounded-start"
-              alt="..."
-            />
-          </div>
+        </div>
+        <div class="col-lg-6 h-100 d-lg-flex d-none">
+          <img
+            src="https://fin.21lab.co/wp-content/uploads/2021/09/bg-ctf.jpg"
+            class="img-fluid rounded-start"
+            alt="..."
+          />
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- END FORM SECTION -->
+  <!-- END FORM SECTION -->
     <!-- Aside -->
 
     <aside class="py-5">

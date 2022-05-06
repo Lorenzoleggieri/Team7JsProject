@@ -121,6 +121,10 @@ body{
 /* END TECHNOLOGY AVISORY */
 
 /* PORTRAIT */
+.portrait{
+    background: linear-gradient(180deg, #E0ECF0A3 0%, #FFFFFF 100%);
+    
+}
 
 .rounded-pill{
     background-color: #e0ecf0;
@@ -145,15 +149,17 @@ body{
 /* FORM */
 .formCardStyle{
     border: none;
+    padding-top: 6rem;
 }
 .formCardStyle select{
-    /* background: rgb(235,242,245); */
+ background: rgb(235,242,245); 
     border: none;
 
 }
 .formSide{
     background-color: rgb(235,242,245);
 }
+
 /* END FORM */
 
 
