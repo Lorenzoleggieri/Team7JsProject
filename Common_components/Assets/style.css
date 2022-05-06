@@ -1,5 +1,8 @@
 .style_navbar{
-    background-color: #1741551b;
+    background-color: #205774;
+    position: absolute;
+
+
 }
 .navbar_row{
     border-bottom: 1px solid white;
@@ -25,6 +28,7 @@
 
 .formButton{
     background-color: #2CBC63;
+    border: none;
 }
 
 .greenLink{
@@ -39,7 +43,7 @@
 
 .canvasClose{
     background-color: #2CBC63;
-    
+
 }
 
 /* PORTRAIT */
@@ -66,25 +70,6 @@
 }
 /* END FORM */
 
-.textGreen{
-    color: #2CBC63;
-}
-.card-body h1{
-    font-weight: lighter;
-    color: #A69CAA;
-}
-.card{
-    border-top: none;
-    border-bottom: none;
-}
-
-.left{
-    border-left: none;
-}
-
-.right{
-    border-right: none;
-}
 
 /* footer + aside */
 
@@ -120,9 +105,11 @@ aside h1{
 }
 
 aside{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(https://t3.ftcdn.net/jpg/03/80/03/34/360_F_380033452_KYmG8lNrLuoe9mda5HMJ7EOYralP0WcA.jpg);
+    background-color: #033b51;
+    background-image:url(https://fin.21lab.co/wp-content/uploads/2021/09/globe-bg.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-position: center;
+
 }
 
 /* end footer */
