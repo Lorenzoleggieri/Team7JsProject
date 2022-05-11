@@ -1,0 +1,183 @@
+body{
+    overflow-x: hidden;
+}
+
+/* HEADER */
+
+header{
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-image: url(https://fin.21lab.co/wp-content/uploads/2021/09/bg-ttb.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-color: rgb(2, 58, 81);
+}
+
+.style_navbar{
+    background-color: #1741551b;
+}
+
+.navbar_row{
+    border-bottom: 1px solid white;
+}
+
+.modal_style{
+    background-color: #2CBC63;
+    border: none;
+}
+
+.button_header{
+    background-color: white;
+    border: none;
+}
+
+.button_offcanvas{
+    height: 50%;
+    width: 5%;
+    background-color: white;
+    border: none;
+}
+
+.borderless{
+    border: none;
+}
+
+.formButton{
+    background-color: #2CBC63;
+}
+
+.greenLink{
+    color: #2CBC63;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.textgray{
+    color:#798897;
+}
+
+.canvasClose{
+    background-color: #2CBC63;
+}
+
+.modal-backdrop{
+    z-index: 0;
+}
+
+/* CASE STUDIES */
+
+.responsive-font-h1 {
+    color: rgb(255, 255, 255);
+    font-size: 4.5vw;
+}
+
+.responsive-font-h2 {
+    font-size: 2.5vw;
+}
+
+.responsive-font-h3{
+    color: rgb(255, 255, 255, 0.75);
+    font-size: 1.5vw;
+    padding-bottom:  20px;
+}
+
+.responsive-font-p{
+    font-size: 1.2vw;
+}
+/* MAIN */
+
+.main-selector1{
+    color: #2cbc63;
+    white-space: nowrap;
+  overflow: hidden;
+}
+
+.main-selector2{
+    color: rgb(92, 102, 125);
+    white-space: nowrap;
+}
+
+
+
+.card-bg-1 {
+
+    background-image: url('img/card-1.jpg');
+    box-shadow: inset 0 0 0 1000px rgba(5, 145, 226, 0.349);
+    background-size: cover;
+}
+
+.card-bg-2 {
+    background-image: url(img/card-2.jpg) ;
+    box-shadow: inset 0 0 0 1000px rgba(5, 145, 226, 0.349);
+    background-size: cover;
+}
+
+.card-bg-3 {
+    background-image: url(img/card-3.jpg) ;
+    box-shadow: inset 0 0 0 1000px rgba(5, 145, 226, 0.349);
+    background-size: cover;
+}
+
+.card-bg-4 {
+    background-image: url(img/card-4.jpg) ;
+    box-shadow: inset 0 0 0 1000px rgba(5, 145, 226, 0.349);
+    background-size: cover;
+}
+
+.card-bg-5 {
+    background-image: url(img/card-5.jpg) ;
+    box-shadow: inset 0 0 0 1000px rgba(5, 145, 226, 0.349);
+    background-size: cover;
+}
+
+.card-bg-6 {
+    background-image: url(img/card-6.jpg) ;
+    box-shadow: inset 0 0 0 1000px rgba(5, 145, 226, 0.349);
+    background-size: cover;
+}
+
+.card-border {
+    border-top: solid white 2px;
+    z-index: 5;
+    }
+
+/* FOOTER & ASIDE */
+
+footer{
+    background-color: #033b51;
+}
+
+
+.col-lg-2 a{
+    color: #A6BAC2;
+}
+
+.col-lg-2 h5{
+    color: white;
+}
+
+.Graytext, .col-lg-4 p{
+    color: #A69CAA;
+}
+.greyLink {
+    color: #A6BAC2;
+    text-decoration: none;
+}
+
+.btn-primary{
+    border: none;
+    background-color: #2CBC63;
+}
+
+aside h1{
+    color: white;
+}
+
+aside{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(https://t3.ftcdn.net/jpg/03/80/03/34/360_F_380033452_KYmG8lNrLuoe9mda5HMJ7EOYralP0WcA.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
