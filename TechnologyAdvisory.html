@@ -65,7 +65,7 @@
                 class="dropdown-menu dropdown-menu-dark"
                 aria-labelledby="navbarDarkDropdownMenuLink"
               >
-                <li><a class="dropdown-item" href="#">Home 1</a></li>
+                <li><a class="dropdown-item" href="index.html">Home 1</a></li>
                 <li><a class="dropdown-item" href="#">Home 2</a></li>
               </ul>
             </li>
@@ -126,7 +126,7 @@
                   <a class="dropdown-item" href="#">Portfolio Management</a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#">Technology Advisory</a>
+                  <a class="dropdown-item" href="TechnologyAdvisory.html">Technology Advisory</a>
                 </li>
                 <li>
                   <a class="dropdown-item" href="#">All Services Pages</a>
@@ -150,7 +150,7 @@
               >
                 <li><a class="dropdown-item" href="#">Cases Grid 1</a></li>
                 <li><a class="dropdown-item" href="#">Cases Grid 2</a></li>
-                <li><a class="dropdown-item" href="#">Cases Grid 3</a></li>
+                <li><a class="dropdown-item" href="Casestudies3.html">Cases Grid 3</a></li>
               </ul>
             </li>
             <li class="nav-item">
@@ -501,7 +501,7 @@
                     class="dropdown-menu dropdown-menu-dark"
                     aria-labelledby="navbarDarkDropdownMenuLink"
                   >
-                    <li><a class="dropdown-item" href="#">Home 1</a></li>
+                    <li><a class="dropdown-item" href="index.html">Home 1</a></li>
                     <li><a class="dropdown-item" href="#">Home 2</a></li>
                   </ul>
                 </li>
@@ -574,7 +574,7 @@
                       >
                     </li>
                     <li>
-                      <a class="dropdown-item" href="#"
+                      <a class="dropdown-item" href="TechnologyAdvisory.html"
                         >Technology Advisory</a
                       >
                     </li>
@@ -605,7 +605,7 @@
                       <a class="dropdown-item" href="#">Cases Grid 2</a>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="#">Cases Grid 3</a>
+                      <a class="dropdown-item" href="Casestudies3.html">Cases Grid 3</a>
                     </li>
                   </ul>
                 </li>
@@ -936,6 +936,7 @@
         <div class="col-lg-6 formSide col-12 p-3">
           <div class="card-body h-100">
             <form
+            id="contactForm"
               action=""
               class="d-flex flex-column justify-content-evenly h-100"
             >
@@ -1012,7 +1013,8 @@
                 <div class="d-flex w-100 flex-column">
                   <label for="Number" class="form-label">Phone Number*</label>
                   <input
-                    type="number"
+                    type="tel"
+                    pattern="[0-9]{10}"
                     class="form-control"
                     id="Number"
                     placeholder="Full Number"
@@ -1233,5 +1235,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="assets/index.js" type="module"></script>
+    <script src="assets/contactUs/contactForm.js"></script>
   </body>
 </html>

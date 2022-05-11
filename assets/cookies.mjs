@@ -1,6 +1,6 @@
   export const cookieForm = () =>{
     let container = document.createElement('div')
-    container.classList.add('biscotto', 'rounded', 'd-flex', 'flex-column', 'align-items-center')
+    container.classList.add('biscotto', 'rounded', 'd-flex', 'flex-column', 'align-items-center',)
     let text = document.createElement('p')
     text.classList.add('ms-2')
     text.innerHTML = 'Accetta i nostri cookies per  aiutarci a migliorare il nostro servizio'
@@ -17,7 +17,7 @@
 export const cookieGen = () =>{
   let date = new Date(Date.now() + 86400e3)
   date = date.toUTCString();
-  document.cookie = 'Andrea=persona; SameSite=Lax;  Secure;expires='+date;
+  document.cookie = 'PageCookie=cookie; SameSite=Lax;  Secure;expires='+date;
 }
 
 

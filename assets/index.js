@@ -4,7 +4,7 @@ import { talkFormResponse } from "./talkanexperts.mjs";
 
 window.addEventListener("load",  () => {
   if (
-    document.cookie.split(";").some((val) => val.trim().startsWith("Andrea="))
+    document.cookie.split(";").some((val) => val.trim().startsWith("PageCookie="))
     ) {
     } else {
       let eventForm = new CustomEvent('cookieFormLoaded')
@@ -23,12 +23,15 @@ window.addEventListener('cookieFormLoaded', () =>{
      cookieGen();
      document.querySelector('.biscotto').style.display = 'none'
      document.querySelector('.biscotto').classList.remove('d-flex')
+     console.log(`Cookie Accepted :)`)
 
    })
 
    rejectButton.addEventListener('click', () =>{
    document.querySelector('.biscotto').style.display = 'none'
-   document.querySelector('.biscotto').classList.remove('d-flex')})
+   document.querySelector('.biscotto').classList.remove('d-flex')
+  console.log(`Cookie Rejected :( `)})
+  
 
 });
 
