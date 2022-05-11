@@ -127,6 +127,7 @@
                     <div class="card-body h-100">
                       <form
                         action=""
+                        id="talkForm"
                         class="d-flex flex-column justify-content-evenly h-100"
                       >
                         <div class="row">
@@ -210,10 +211,11 @@
                               >Phone Number*</label
                             >
                             <input
-                              type="number"
+                              type="tel"
                               class="form-control"
                               id="Number"
                               placeholder="Full Number"
+                              pattern="[0-9]{10}"
                             />
                           </div>
                         </div>
@@ -232,7 +234,7 @@
                             <input
                               class="form-check-input"
                               type="checkbox"
-                              value=""
+                              value="checked"
                               id="invalidCheck3"
                               aria-describedby="invalidCheck3Feedback"
                               checked
@@ -565,25 +567,26 @@
                 <strong>Mail:</strong>
                 <a class="greenLink" href="">info@example.com</a>
               </p>
-              <form class="pt-5" action="#">
+              <form class="pt-5" id="offCanvasForm" action="#">
                 <p class="textGray"><strong>Request a callback</strong></p>
                 <div class="form-floating mb-3">
                   <input
                     type="text"
                     class="form-control"
-                    id="floatingInput"
+                    id="nameInput"
                     placeholder="Your Name*"
                   />
-                  <label for="floatingInput">Your Name*</label>
+                  <label for="nameInput">Your Name*</label>
                 </div>
                 <div class="form-floating">
                   <input
                     type="tel"
                     class="form-control"
-                    id="floatingPassword"
+                    id="phoneInput"
                     placeholder="Phone Number*"
+                    pattern="[0-9]{10}"
                   />
-                  <label for="floatingPassword">Phone Number*</label>
+                  <label for="phoneInput">Phone Number*</label>
                 </div>
                 <div class="d-grid gap-2 pt-3">
                   <button class="btn btn-primary formButton" type="submit">
@@ -1207,5 +1210,6 @@
     <!-- FINE FOOTER -->
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-</body>
+    <script src="assets/index.js" type="module"></script>
+  </body>
 </html>
