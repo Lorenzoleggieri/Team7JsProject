@@ -380,3 +380,29 @@ aside{
     background-size: cover;
 }
 
+
+/* COOKIES */
+
+.biscotto{
+    background-color: red;
+    box-shadow: 8px 5px 10px gray;
+    position: fixed;
+    width: 15vw;
+    left: 0;
+    bottom:  10px;
+    z-index: 1;
+}
+
+
+
+@media screen and (max-width:1000px){
+    .biscotto{
+        background-color: red;
+        position: fixed;
+        width: 100vw;
+        left: 0;
+        bottom:  10px;
+        z-index: 1;
+    }
+}
+
