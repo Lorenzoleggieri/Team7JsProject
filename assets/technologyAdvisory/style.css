@@ -77,7 +77,7 @@ ul{
     color: #A6BAC2;
 }
 .techAdvhero{
-    background-image: url(../Assets/Hero_background_image.png);
+    background-image: url('img/Hero_background_image.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
