@@ -7,7 +7,13 @@ body{
 ul{
     padding: 0px;
 }
+
+
 /* HEADER */
+.navbar-nav a {
+    font-size: 0.8rem;
+}
+
 .row{
     margin: 0%;
 }
