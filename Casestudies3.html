@@ -12,6 +12,7 @@
 		/>
 
 		<link rel="stylesheet" href="assets/CaseStudies3/style.css" />
+		<link rel="stylesheet" href="assets/cookie.css" />
 
 		<title>Case Studies 3</title>
 	</head>
@@ -135,6 +136,7 @@
 											<div class="col-12 p-3">
 												<div class="card-body h-100">
 													<form
+														id="talkForm"
 														action=""
 														class="d-flex flex-column justify-content-evenly h-100"
 													>
@@ -223,7 +225,8 @@
 																	>Phone Number*</label
 																>
 																<input
-																	type="number"
+																	pattern="[0-9]{10}"
+																	type="tel"
 																	class="form-control"
 																	id="Number"
 																	placeholder="Full Number"
@@ -584,25 +587,26 @@
 										<strong>Mail:</strong>
 										<a class="greenLink" href="">info@example.com</a>
 									</p>
-									<form class="pt-5" action="#">
+									<form class="pt-5" action="#" id="offCanvasForm">
 										<p class="textGray"><strong>Request a callback</strong></p>
 										<div class="form-floating mb-3">
 											<input
 												type="text"
 												class="form-control"
-												id="floatingInput"
+												id="nameInput"
 												placeholder="Your Name*"
 											/>
-											<label for="floatingInput">Your Name*</label>
+											<label for="nameInput">Your Name*</label>
 										</div>
 										<div class="form-floating">
 											<input
 												type="tel"
 												class="form-control"
-												id="floatingPassword"
+												id="phoneInput"
+												pattern="[0-9]{10}"
 												placeholder="Phone Number*"
 											/>
-											<label for="floatingPassword">Phone Number*</label>
+											<label for="phoneInput">Phone Number*</label>
 										</div>
 										<div class="d-grid gap-2 pt-3">
 											<button class="btn btn-primary formButton" type="submit">
@@ -1477,5 +1481,6 @@
 			integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
 			crossorigin="anonymous"
 		></script>
+		<script src="assets/index.js" type="module"></script>
 	</body>
 </html>
