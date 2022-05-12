@@ -1,0 +1,1508 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+			crossorigin="anonymous"
+		/>
+
+		<link rel="stylesheet" href="assets/CaseStudies3/style.css" />
+		<link rel="stylesheet" href="assets/cookie.css" />
+
+		<title>Case Studies 3</title>
+	</head>
+	<body>
+		<header>
+			<div class="style_navbar">
+				<div class="row navbar_row">
+					<div
+						class="row justify-content-between align-items-center col-10 container mx-auto py-2"
+					>
+						<div class="col-lg-6 col-md-5 col-10 d-flex">
+							<!-- Parte sinistra -->
+							<img
+								src="assets/CaseStudies3/img/logo.png"
+								class="col-lg-6 col-md-12 col-10"
+								alt="logo finlab"
+							/>
+							<!-- sub-parte sinistra: logo -->
+							<div
+								class="container justify-content-around align-items-center d-lg-flex col-lg-6 d-none"
+							>
+								<!-- sub-parte destra: icone -->
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									width="16"
+									height="16"
+									fill="white"
+									class="bi bi-facebook"
+									viewBox="0 0 16 16"
+								>
+									<path
+										d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"
+									/>
+								</svg>
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									width="16"
+									height="16"
+									fill="white"
+									class="bi bi-twitter"
+									viewBox="0 0 16 16"
+								>
+									<path
+										d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"
+									/>
+								</svg>
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									width="16"
+									height="16"
+									fill="white"
+									class="bi bi-messenger"
+									viewBox="0 0 16 16"
+								>
+									<path
+										d="M0 7.76C0 3.301 3.493 0 8 0s8 3.301 8 7.76-3.493 7.76-8 7.76c-.81 0-1.586-.107-2.316-.307a.639.639 0 0 0-.427.03l-1.588.702a.64.64 0 0 1-.898-.566l-.044-1.423a.639.639 0 0 0-.215-.456C.956 12.108 0 10.092 0 7.76zm5.546-1.459-2.35 3.728c-.225.358.214.761.551.506l2.525-1.916a.48.48 0 0 1 .578-.002l1.869 1.402a1.2 1.2 0 0 0 1.735-.32l2.35-3.728c.226-.358-.214-.761-.551-.506L9.728 7.381a.48.48 0 0 1-.578.002L7.281 5.98a1.2 1.2 0 0 0-1.735.32z"
+									/>
+								</svg>
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									width="16"
+									height="16"
+									fill="white"
+									class="bi bi-balloon"
+									viewBox="0 0 16 16"
+								>
+									<path
+										fill-rule="evenodd"
+										d="M8 9.984C10.403 9.506 12 7.48 12 5a4 4 0 0 0-8 0c0 2.48 1.597 4.506 4 4.984ZM13 5c0 2.837-1.789 5.227-4.52 5.901l.244.487a.25.25 0 1 1-.448.224l-.008-.017c.008.11.02.202.037.29.054.27.161.488.419 1.003.288.578.235 1.15.076 1.629-.157.469-.422.867-.588 1.115l-.004.007a.25.25 0 1 1-.416-.278c.168-.252.4-.6.533-1.003.133-.396.163-.824-.049-1.246l-.013-.028c-.24-.48-.38-.758-.448-1.102a3.177 3.177 0 0 1-.052-.45l-.04.08a.25.25 0 1 1-.447-.224l.244-.487C4.789 10.227 3 7.837 3 5a5 5 0 0 1 10 0Zm-6.938-.495a2.003 2.003 0 0 1 1.443-1.443C7.773 2.994 8 2.776 8 2.5c0-.276-.226-.504-.498-.459a3.003 3.003 0 0 0-2.46 2.461c-.046.272.182.498.458.498s.494-.227.562-.495Z"
+									/>
+								</svg>
+							</div>
+						</div>
+						<!-- Parte destra -->
+						<div
+							class="col-lg-6 col-md-7 col-2 d-flex justify-content-end gap-2"
+						>
+							<!-- Button trigger modal -->
+							<button
+								type="button"
+								class="btn btn-primary modal_style rounded-pill d-lg-flex d-md-flex d-none"
+								data-bs-toggle="modal"
+								data-bs-target="#staticBackdrop"
+							>
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									width="16"
+									height="16"
+									fill="white"
+									class="bi bi-chat"
+									viewBox="0 0 16 16"
+								>
+									<path
+										d="M2.678 11.894a1 1 0 0 1 .287.801 10.97 10.97 0 0 1-.398 2c1.395-.323 2.247-.697 2.634-.893a1 1 0 0 1 .71-.074A8.06 8.06 0 0 0 8 14c3.996 0 7-2.807 7-6 0-3.192-3.004-6-7-6S1 4.808 1 8c0 1.468.617 2.83 1.678 3.894zm-.493 3.905a21.682 21.682 0 0 1-.713.129c-.2.032-.352-.176-.273-.362a9.68 9.68 0 0 0 .244-.637l.003-.01c.248-.72.45-1.548.524-2.319C.743 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.52.263-1.639.742-3.468 1.105z"
+									/>
+								</svg>
+								Talk an Experts
+							</button>
+							<!-- Modal -->
+							<div
+								class="modal fade"
+								id="staticBackdrop"
+								data-bs-backdrop="static"
+								data-bs-keyboard="false"
+								tabindex="-1"
+								aria-labelledby="staticBackdropLabel"
+								aria-hidden="true"
+							>
+								<div class="modal-dialog modal-lg modal-dialog-scrollable">
+									<div class="modal-content talkAnExpertModal">
+										<div class="modal-header">
+											<div></div>
+											<button
+												type="button"
+												class="btn-close"
+												data-bs-dismiss="modal"
+												aria-label="Close"
+											></button>
+										</div>
+										<div class="modal-body">
+											<div class="col-12 p-3">
+												<div class="card-body h-100">
+													<form
+														id="talkForm"
+														action=""
+														class="d-flex flex-column justify-content-evenly h-100"
+													>
+														<div class="row">
+															<label class="col-3" for="iAm">I'm a/an</label>
+															<select
+																id="iAm"
+																class="form-select col"
+																aria-label="Default select example"
+															>
+																<option value="freelancer" selected>
+																	Freelancer/ Own Business
+																</option>
+																<option value="other">Other Options</option>
+															</select>
+														</div>
+														<div class="row">
+															<label class="col-3" for="iWant">I want</label>
+															<select
+																id="iWant"
+																class="form-select col"
+																aria-label="Default select example"
+															>
+																<option value="callMe" selected>
+																	Call me to Discuss my Questions
+																</option>
+																<option value="digitalProspectus">
+																	Email me your digital prospectus
+																</option>
+																<option value="informationPack">
+																	Email me your full information pack
+																</option>
+															</select>
+														</div>
+														<div class="row">
+															<label class="col-3" for="iAm"
+																>I interested</label
+															>
+															<select
+																id="iInterested"
+																class="form-select col"
+																aria-label="Default select example"
+															>
+																<option value="finConsult" selected>
+																	Financial Consultant
+																</option>
+																<option value="accServices">
+																	Accounting Services
+																</option>
+																<option value="taxServices">
+																	Tax Services
+																</option>
+																<option value="careers">Careers</option>
+																<option value="additionalInfo">
+																	Request Additional Information
+																</option>
+															</select>
+														</div>
+														<div class="d-flex flex-column">
+															<label for="Name" class="form-label"
+																>Your Name*</label
+															>
+															<input
+																type="text"
+																class="form-control"
+																id="Name"
+																placeholder="E.g.: John Doe"
+																required
+															/>
+														</div>
+														<div class="row">
+															<div class="d-flex w-50 flex-column">
+																<label for="Email" class="form-label"
+																	>Your Email*</label
+																>
+																<input
+																	type="email"
+																	class="form-control"
+																	id="Email"
+																	placeholder="name@company.com"
+																	required
+																/>
+															</div>
+															<div class="d-flex w-50 flex-column">
+																<label for="Number" class="form-label"
+																	>Phone Number*</label
+																>
+																<input
+																	pattern="[0-9]{10}"
+																	type="tel"
+																	class="form-control"
+																	id="Number"
+																	placeholder="Full Number"
+																/>
+															</div>
+														</div>
+														<div class="d-flex flex-column">
+															<label for="text" class="form-label"
+																>Message</label
+															>
+															<textarea
+																name="Enter Message"
+																id="text"
+																cols="30"
+																rows="5"
+															></textarea>
+														</div>
+
+														<div class="d-flex flex-column">
+															<div class="form-check">
+																<input
+																	class="form-check-input"
+																	type="checkbox"
+																	value=""
+																	id="defaultCheck1"
+																	aria-describedby="defaultCheck1Feedback"
+																	checked
+																	required
+																/>
+																<label
+																	class="form-check-label"
+																	for="defaultCheck1"
+																>
+																	I Agree to receive comunication from FinLab
+																</label>
+															</div>
+														</div>
+														<div class="row">
+															<button
+																class="btn btn-primary col-12 mx-auto"
+																type="submit"
+															>
+																Send Message
+															</button>
+														</div>
+													</form>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- buttons  -->
+							<div class="d-grid gap-2 d-flex">
+								<button
+									type="button"
+									class="btn btn-outline-info button_header d-lg-flex d-md-flex d-none rounded-circle"
+								>
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										width="16"
+										height="16"
+										fill="grey"
+										class="bi bi-cart2"
+										viewBox="0 0 16 16"
+									>
+										<path
+											d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"
+										/>
+									</svg>
+								</button>
+								<button
+									type="button"
+									class="btn btn-outline-info d-lg-flex d-md-flex d-none button_header rounded-circle"
+								>
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										width="16"
+										height="16"
+										fill="grey"
+										class="bi bi-search"
+										viewBox="0 0 16 16"
+									>
+										<path
+											d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+										/>
+									</svg>
+								</button>
+							</div>
+							<!-- menu mobile -->
+							<button
+								class="navbar-toggler col-2 d-lg-none rounded-circle button_header"
+								type="button"
+								data-bs-toggle="offcanvas"
+								data-bs-target="#offcanvasTop"
+								aria-controls="offcanvasTop"
+							>
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									width="16"
+									height="16"
+									fill="grey"
+									class="bi bi-list"
+									viewBox="0 0 16 16"
+								>
+									<path
+										fill-rule="evenodd"
+										d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+									/>
+								</svg>
+							</button>
+
+							<div
+								class="offcanvas offcanvas-end d-lg-none"
+								tabindex="-1"
+								id="offcanvasTop"
+								aria-labelledby="offcanvasTopLabel"
+							>
+								<div class="offcanvas-header">
+									<div></div>
+									<button
+										type="button"
+										class="btn-close text-reset"
+										data-bs-dismiss="offcanvas"
+										aria-label="Close"
+									></button>
+								</div>
+								<div class="offcanvas-body">
+									<ul class="navbar-nav">
+										<li class="nav-item dropdown">
+											<a
+												class="nav-link dropdown-toggle"
+												href="#"
+												id="navbarDarkDropdownMenuLink"
+												role="button"
+												data-bs-toggle="dropdown"
+												aria-expanded="false"
+											>
+												HomePage
+											</a>
+											<ul
+												class="dropdown-menu dropdown-menu-dark"
+												aria-labelledby="navbarDarkDropdownMenuLink"
+											>
+												<li><a class="dropdown-item" href="index.html">Home 1</a></li>
+												<li><a class="dropdown-item" href="#">Home 2</a></li>
+											</ul>
+										</li>
+										<li class="nav-item dropdown">
+											<a
+												class="nav-link dropdown-toggle"
+												href="#"
+												id="navbarDarkDropdownMenuLink"
+												role="button"
+												data-bs-toggle="dropdown"
+												aria-expanded="false"
+											>
+												Who We Are
+											</a>
+											<ul
+												class="dropdown-menu dropdown-menu-dark"
+												aria-labelledby="navbarDarkDropdownMenuLink"
+											>
+												<li><a class="dropdown-item" href="#">About Us</a></li>
+												<li>
+													<a class="dropdown-item" href="#"
+														>Our Leadership Team</a
+													>
+												</li>
+												<li>
+													<a class="dropdown-item" href="#">Why Choose Us</a>
+												</li>
+												<li>
+													<a class="dropdown-item" href="#">Our History</a>
+												</li>
+												<li><a class="dropdown-item" href="#">Careers</a></li>
+											</ul>
+										</li>
+										<li class="nav-item dropdown">
+											<a
+												class="nav-link dropdown-toggle"
+												href="#"
+												id="navbarDarkDropdownMenuLink"
+												role="button"
+												data-bs-toggle="dropdown"
+												aria-expanded="false"
+											>
+												What We Do
+											</a>
+											<ul
+												class="dropdown-menu dropdown-menu-dark"
+												aria-labelledby="navbarDarkDropdownMenuLink"
+											>
+												<li>
+													<a class="dropdown-item" href="#"
+														>Accounting Services</a
+													>
+												</li>
+												<li>
+													<a class="dropdown-item" href="#"
+														>Capital Investments</a
+													>
+												</li>
+												<li>
+													<a class="dropdown-item" href="#"
+														>Finance & Restructuring</a
+													>
+												</li>
+												<li>
+													<a class="dropdown-item" href="#"
+														>Financial Consultant</a
+													>
+												</li>
+												<li>
+													<a class="dropdown-item" href="#"
+														>Portfolio Management</a
+													>
+												</li>
+												<li>
+													<a class="dropdown-item" href="TechnologyAdvisory.html"
+														>Technology Advisory</a
+													>
+												</li>
+												<li>
+													<a class="dropdown-item" href="#"
+														>All Services Pages</a
+													>
+												</li>
+											</ul>
+										</li>
+										<li class="nav-item dropdown">
+											<a
+												class="nav-link dropdown-toggle"
+												href="#"
+												id="navbarDarkDropdownMenuLink"
+												role="button"
+												data-bs-toggle="dropdown"
+												aria-expanded="false"
+											>
+												Case Studies
+											</a>
+											<ul
+												class="dropdown-menu dropdown-menu-dark"
+												aria-labelledby="navbarDarkDropdownMenuLink"
+											>
+												<li>
+													<a class="dropdown-item" href="#">Cases Grid 1</a>
+												</li>
+												<li>
+													<a class="dropdown-item" href="#">Cases Grid 2</a>
+												</li>
+												<li>
+													<a class="dropdown-item" href="Casestudies3.html">Cases Grid 3</a>
+												</li>
+											</ul>
+										</li>
+										<li class="nav-item">
+											<a
+												class="nav-link"
+												href="#"
+												id="navbarDarkDropdownMenuLink"
+												role="button"
+												data-bs-toggle="dropdown"
+												aria-expanded="false"
+											>
+												Blog & Insights
+											</a>
+										</li>
+										<li class="nav-item">
+											<a
+												class="nav-link"
+												href="#"
+												id="navbarDarkDropdownMenuLink"
+												role="button"
+												data-bs-toggle="dropdown"
+												aria-expanded="false"
+											>
+												Shop
+											</a>
+										</li>
+										<li class="nav-item">
+											<a
+												class="nav-link"
+												href="contactUs.html"
+												id="navbarDarkDropdownMenuLink"
+												role="button"
+												aria-expanded="false"
+											>
+												Contact Us
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div
+					class="row col-10 container d-none d-lg-flex mx-auto py-2 py-md-0 justify-content-around"
+				>
+					<!-- offcanvas -->
+					<button
+						class="btn btn-primary align-self-center d-lg-flex col-lg-1 d-none button_offcanvas rounded-circle"
+						type="button"
+						data-bs-toggle="offcanvas"
+						data-bs-target="#offcanvasScrolling"
+						aria-controls="offcanvasScrolling"
+					>
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							width="20"
+							height="20"
+							fill="grey"
+							class="bi bi-list"
+							viewBox="0 0 16 16"
+						>
+							<path
+								fill-rule="evenodd"
+								d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+							/>
+						</svg>
+					</button>
+					<div
+						class="offcanvas offcanvas-start"
+						data-bs-scroll="true"
+						data-bs-backdrop="false"
+						tabindex="-1"
+						id="offcanvasScrolling"
+						aria-labelledby="offcanvasScrollingLabel"
+					>
+						<div class="offcanvas-header">
+							<div></div>
+							<button
+								type="button"
+								class="btn-close text-reset canvasClose"
+								data-bs-dismiss="offcanvas"
+								aria-label="Close"
+							></button>
+						</div>
+						<div class="offcanvas-body">
+							<div class="card borderless">
+								<img
+									src="https://fin.21lab.co/wp-content/uploads/2021/09/c4-1024x512.jpg"
+									class="card-img-top"
+									alt="buildings"
+								/>
+								<div class="card-body">
+									<p class="card-text pt-5">
+										Our firm provides the expert support organisations need to
+										thrive in a fast-changing world.
+									</p>
+									<p class="card-text">
+										<strong>Address:</strong> 1270 Beverley Rd Brooklyn, New
+										York 11226 United States. <br />
+										<strong>Phone:</strong>
+										<a class="greenLink" href="">0712 610 33 181</a><br />
+										<strong>Mail:</strong>
+										<a class="greenLink" href="">info@example.com</a>
+									</p>
+									<form class="pt-5" action="#" id="offCanvasForm">
+										<p class="textGray"><strong>Request a callback</strong></p>
+										<div class="form-floating mb-3">
+											<input
+												type="text"
+												class="form-control"
+												id="nameInput"
+												placeholder="Your Name*"
+											/>
+											<label for="nameInput">Your Name*</label>
+										</div>
+										<div class="form-floating">
+											<input
+												type="tel"
+												class="form-control"
+												id="phoneInput"
+												pattern="[0-9]{10}"
+												placeholder="Phone Number*"
+											/>
+											<label for="phoneInput">Phone Number*</label>
+										</div>
+										<div class="d-grid gap-2 pt-3">
+											<button class="btn btn-primary formButton" type="submit">
+												Request a callback
+											</button>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- end offcanvas -->
+					<!-- navbar -->
+					<nav
+						class="navbar navbar-expand-lg navbar-expand-md navStyleMd col-md-12 col-lg-11 navbar-dark"
+					>
+						<div class="container-fluid">
+							<button
+								class="navbar-toggler"
+								type="button"
+								data-bs-toggle="collapse"
+								data-bs-target="#navbarNavDarkDropdown"
+								aria-controls="navbarNavDarkDropdown"
+								aria-expanded="false"
+								aria-label="Toggle navigation"
+							>
+								<span class="navbar-toggler-icon"></span>
+							</button>
+							<div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+								<ul class="navbar-nav">
+									<li class="nav-item dropdown">
+										<a
+											class="nav-link dropdown-toggle"
+											href="#"
+											id="navbarDarkDropdownMenuLink"
+											role="button"
+											data-bs-toggle="dropdown"
+											aria-expanded="false"
+										>
+											HomePage
+										</a>
+										<ul
+											class="dropdown-menu dropdown-menu-dark"
+											aria-labelledby="navbarDarkDropdownMenuLink"
+										>
+											<li><a class="dropdown-item" href="index.html">Home 1</a></li>
+											<li><a class="dropdown-item" href="#">Home 2</a></li>
+										</ul>
+									</li>
+									<li class="nav-item dropdown">
+										<a
+											class="nav-link dropdown-toggle"
+											href="#"
+											id="navbarDarkDropdownMenuLink"
+											role="button"
+											data-bs-toggle="dropdown"
+											aria-expanded="false"
+										>
+											Who We Are
+										</a>
+										<ul
+											class="dropdown-menu dropdown-menu-dark"
+											aria-labelledby="navbarDarkDropdownMenuLink"
+										>
+											<li><a class="dropdown-item" href="#">About Us</a></li>
+											<li>
+												<a class="dropdown-item" href="#"
+													>Our Leadership Team</a
+												>
+											</li>
+											<li>
+												<a class="dropdown-item" href="#">Why Choose Us</a>
+											</li>
+											<li><a class="dropdown-item" href="#">Our History</a></li>
+											<li><a class="dropdown-item" href="#">Careers</a></li>
+										</ul>
+									</li>
+									<li class="nav-item dropdown">
+										<a
+											class="nav-link dropdown-toggle"
+											href="#"
+											id="navbarDarkDropdownMenuLink"
+											role="button"
+											data-bs-toggle="dropdown"
+											aria-expanded="false"
+										>
+											What We Do
+										</a>
+										<ul
+											class="dropdown-menu dropdown-menu-dark"
+											aria-labelledby="navbarDarkDropdownMenuLink"
+										>
+											<li>
+												<a class="dropdown-item" href="#"
+													>Accounting Services</a
+												>
+											</li>
+											<li>
+												<a class="dropdown-item" href="#"
+													>Capital Investments</a
+												>
+											</li>
+											<li>
+												<a class="dropdown-item" href="#"
+													>Finance & Restructuring</a
+												>
+											</li>
+											<li>
+												<a class="dropdown-item" href="#"
+													>Financial Consultant</a
+												>
+											</li>
+											<li>
+												<a class="dropdown-item" href="#"
+													>Portfolio Management</a
+												>
+											</li>
+											<li>
+												<a class="dropdown-item" href="TechnologyAdvisory.html"
+													>Technology Advisory</a
+												>
+											</li>
+											<li>
+												<a class="dropdown-item" href="#">All Services Pages</a>
+											</li>
+										</ul>
+									</li>
+									<li class="nav-item dropdown">
+										<a
+											class="nav-link dropdown-toggle"
+											href="#"
+											id="navbarDarkDropdownMenuLink"
+											role="button"
+											data-bs-toggle="dropdown"
+											aria-expanded="false"
+										>
+											Case Studies
+										</a>
+										<ul
+											class="dropdown-menu dropdown-menu-dark"
+											aria-labelledby="navbarDarkDropdownMenuLink"
+										>
+											<li>
+												<a class="dropdown-item" href="#">Cases Grid 1</a>
+											</li>
+											<li>
+												<a class="dropdown-item" href="#">Cases Grid 2</a>
+											</li>
+											<li>
+												<a class="dropdown-item" href="Casestudies3.html">Cases Grid 3</a>
+											</li>
+										</ul>
+									</li>
+									<li class="nav-item">
+										<a
+											class="nav-link"
+											href="#"
+											id="navbarDarkDropdownMenuLink"
+											role="button"
+											data-bs-toggle="dropdown"
+											aria-expanded="false"
+										>
+											Blog & Insights
+										</a>
+									</li>
+									<li class="nav-item">
+										<a
+											class="nav-link"
+											href="#"
+											id="navbarDarkDropdownMenuLink"
+											role="button"
+											data-bs-toggle="dropdown"
+											aria-expanded="false"
+										>
+											Shop
+										</a>
+									</li>
+									<li class="nav-item">
+										<a
+											class="nav-link"
+											href="contactUs.html"
+											id="navbarDarkDropdownMenuLink"
+											role="button"
+											aria-expanded="false"
+										>
+											Contact Us
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</nav>
+					<!-- end navbar -->
+				</div>
+			</div>
+			<div class="container pt-5 pb-4 text-center">
+				<h1 class="responsive-font-h1">Case Studies</h1>
+				<h3 class="responsive-font-h3 fw-normal">
+					Contact our Toll-Free Number or Send us a Message.
+				</h3>
+			</div>
+		</header>
+
+		<!-- MAIN -->
+		<main>
+			<div class="container d-flex justify-content-center">
+				<div class="row pt-5 pb-5 d-flex flex-row w-50 align">
+					<div
+						class="col-sm-12 col-md main-selector1 fw-bold fs-5"
+						role="button"
+					>
+						Show All
+					</div>
+					<div
+						class="col-sm-12 col-md main-selector2 fw-bold fs-5"
+						role="button"
+					>
+						Cash Flow
+					</div>
+					<div
+						class="col-sm-12 col-md main-selector2 fw-bold fs-5"
+						role="button"
+					>
+						Services
+					</div>
+					<div
+						class="col-sm-12 col-md main-selector2 fw-bold fs-5"
+						role="button"
+					>
+						Invoicing
+					</div>
+					<div
+						class="col-sm-12 col-md main-selector2 fw-bold fs-5"
+						role="button"
+					>
+						Crypto
+					</div>
+				</div>
+			</div>
+			<div class="container pb-5">
+				<div class="row">
+					<div
+						class="col-sm-12 col-md-6 d-flex justify-content-center align-content-center"
+					>
+						<div
+							class="border card-bg-1 d-flex flex-column justify-content-between align-items-center"
+							style="width: 40vw; height: 40vw"
+						>
+							<div
+								class="row pt-3 mt-5 card-border d-flex justify-content-between"
+								style="width: 80%"
+							>
+								<div class="col-8 text-white">
+									<h2 class="responsive-font-h2">
+										Consulting Firm Grows Client Roster by 29%
+									</h2>
+									<p class="pt-2 fw-bold responsive-font-p">Cash Flow</p>
+								</div>
+								<div class="col-4 d-flex justify-content-end">
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										width="48"
+										height="48"
+										fill="white"
+										class="bi bi-arrow-right-circle"
+										viewBox="0 0 16 16"
+									>
+										<path
+											fill-rule="evenodd"
+											d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+										/>
+									</svg>
+								</div>
+							</div>
+
+							<div class="row pb-5" style="width: 80%">
+								<div class="col-9 text-white responsive-font-p">
+									When Spartz and his team sought a firm to help them improve
+									their sales proce
+								</div>
+								<div class="col-3">
+									<svg
+										width="61px"
+										height="60px"
+										viewBox="0 0 61 60"
+										version="1.1"
+										xmlns="http://www.w3.org/2000/svg"
+										xmlns:xlink="http://www.w3.org/1999/xlink"
+									>
+										<title>Group</title>
+										<g
+											id="Page-1"
+											stroke="none"
+											stroke-width="1"
+											fill="none"
+											fill-rule="evenodd"
+										>
+											<g
+												id="Artboard"
+												transform="translate(-144.000000, -181.000000)"
+												fill-rule="nonzero"
+											>
+												<g
+													id="Group"
+													transform="translate(144.000000, 181.000000)"
+												>
+													<polygon
+														id="Rectangle-2---Rectangle-2-Copy"
+														fill="#FFFFFF"
+														points="60.4055916 14.8492424 45.254834 30 60.4055916 45.1507576 45.5563492 60 15.5563492 30 45.5563492 0"
+													></polygon>
+													<polygon
+														id="Rectangle-2---Rectangle-2-Copy-2"
+														fill="#2CBC63"
+														transform="translate(22.424621, 30.000000) rotate(-180.000000) translate(-22.424621, -30.000000) "
+														points="44.8492424 14.8492424 29.6984848 30 44.8492424 45.1507576 30 60 0 30 30 0"
+													></polygon>
+												</g>
+											</g>
+										</g>
+									</svg>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div
+						class="col-sm-12 col-md-6 d-flex justify-content-center align-content-center"
+					>
+						<div
+							class="border card-bg-2 d-flex flex-column justify-content-between align-items-center"
+							style="width: 40vw; height: 40vw"
+						>
+							<div
+								class="row pt-3 mt-5 card-border d-flex justify-content-between"
+								style="width: 80%"
+							>
+								<div class="col-8 text-white">
+									<h2 class="responsive-font-h2">
+										Management Of Foreign Exchange Risk
+									</h2>
+									<p class="pt-2 fw-bold responsive-font-p">Services</p>
+								</div>
+								<div class="col-4 d-flex justify-content-end">
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										width="48"
+										height="48"
+										fill="white"
+										class="bi bi-arrow-right-circle"
+										viewBox="0 0 16 16"
+									>
+										<path
+											fill-rule="evenodd"
+											d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+										/>
+									</svg>
+								</div>
+							</div>
+
+							<div class="row pb-5" style="width: 80%">
+								<div class="col-9 text-white responsive-font-p">
+									Exchange risk is the effect that unanticipated exchange rate
+									changes have on
+								</div>
+								<div class="col-3">
+									<svg
+										width="60px"
+										height="35px"
+										viewBox="0 0 60 35"
+										version="1.1"
+										xmlns="http://www.w3.org/2000/svg"
+										xmlns:xlink="http://www.w3.org/1999/xlink"
+									>
+										<title>Group 13</title>
+										<g
+											id="Page-1"
+											stroke="none"
+											stroke-width="1"
+											fill="none"
+											fill-rule="evenodd"
+										>
+											<g
+												id="Artboard"
+												transform="translate(-137.000000, -191.000000)"
+												fill-rule="nonzero"
+											>
+												<g
+													id="Group-13"
+													transform="translate(137.000000, 191.000000)"
+												>
+													<path
+														d="M0,34.7826087 L0,21.3835089 C5.59199502,21.3764148 10.9526068,19.1204001 14.9042683,15.1109922 C18.8559297,11.1015842 21.0755513,5.6666327 21.0754804,0 L34.313188,0 C34.3062357,9.22077983 30.6892059,18.062022 24.2560773,24.5831182 C17.8229487,31.1042853 9.09932777,34.772464 0,34.7826087 Z"
+														id="Path"
+														fill="#FFFFFF"
+													></path>
+													<path
+														d="M21.0869565,34.7826087 L21.0869565,21.3835089 C26.6796397,21.3774789 32.041195,19.1218899 35.9936368,15.1123401 C39.9461495,11.1027902 42.1662678,5.66729246 42.1662678,0 L55.4039044,0 C55.3959589,9.22113454 51.7780778,18.0623057 45.3443817,24.5834019 C38.9106146,31.1044272 30.186639,34.772464 21.0869565,34.7826087 Z"
+														id="Path"
+														fill="#FFFFFF"
+													></path>
+													<circle
+														id="Oval"
+														fill="#2CBC63"
+														cx="55.4347826"
+														cy="30.4347826"
+														r="4.34782609"
+													></circle>
+												</g>
+											</g>
+										</g>
+									</svg>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row pt-5">
+					<div
+						class="col-sm-12 col-md-6 d-flex justify-content-center align-content-center"
+					>
+						<div
+							class="border card-bg-3 d-flex flex-column justify-content-between align-items-center"
+							style="width: 40vw; height: 40vw"
+						>
+							<div
+								class="row pt-3 mt-5 card-border d-flex justify-content-between"
+								style="width: 80%"
+							>
+								<div class="col-8 text-white">
+									<h2 class="responsive-font-h2">
+										Corporate Tax Policy And Incorporation In The EU
+									</h2>
+									<p class="pt-2 fw-bold responsive-font-p">Invoicing</p>
+								</div>
+								<div class="col-4 d-flex justify-content-end">
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										width="48"
+										height="48"
+										fill="white"
+										class="bi bi-arrow-right-circle"
+										viewBox="0 0 16 16"
+									>
+										<path
+											fill-rule="evenodd"
+											d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+										/>
+									</svg>
+								</div>
+							</div>
+
+							<div class="row pb-5" style="width: 80%">
+								<div class="col-9 text-white responsive-font-p">
+									In Europe, declining corporate tax rates have come along with
+									rising tax-to-G
+								</div>
+								<div class="col-3">
+									<svg
+										width="45px"
+										height="60px"
+										viewBox="0 0 45 60"
+										version="1.1"
+										xmlns="http://www.w3.org/2000/svg"
+										xmlns:xlink="http://www.w3.org/1999/xlink"
+									>
+										<title>symbol</title>
+										<g
+											id="Page-1"
+											stroke="none"
+											stroke-width="1"
+											fill="none"
+											fill-rule="evenodd"
+										>
+											<g
+												id="Artboard"
+												transform="translate(-64.000000, 0.000000)"
+											>
+												<g
+													id="symbol"
+													transform="translate(64.000000, 0.000000)"
+												>
+													<polygon
+														id="Rectangle"
+														fill="#2CBC63"
+														points="0 0 15 7.5 15 60 0 52.5"
+													></polygon>
+													<polygon
+														id="Rectangle-Copy-5"
+														fill="#FFFFFF"
+														points="30 0 45 7.5 45 60 30 52.5"
+													></polygon>
+												</g>
+											</g>
+										</g>
+									</svg>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div
+						class="col-sm-12 col-md-6 d-flex justify-content-center align-content-center"
+					>
+						<div
+							class="border card-bg-4 d-flex flex-column justify-content-between align-items-center"
+							style="width: 40vw; height: 40vw"
+						>
+							<div
+								class="row pt-3 mt-5 card-border d-flex justify-content-between"
+								style="width: 80%"
+							>
+								<div class="col-8 text-white">
+									<h2 class="responsive-font-h2">
+										Managing Cash Flow in a Seasonal Business
+									</h2>
+									<p class="pt-2 fw-bold responsive-font-p">Cash Flow</p>
+								</div>
+								<div class="col-4 d-flex justify-content-end">
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										width="48"
+										height="48"
+										fill="white"
+										class="bi bi-arrow-right-circle"
+										viewBox="0 0 16 16"
+									>
+										<path
+											fill-rule="evenodd"
+											d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+										/>
+									</svg>
+								</div>
+							</div>
+
+							<div class="row pb-5" style="width: 80%">
+								<div class="col-9 text-white responsive-font-p">
+									A distributor of home products with multiple locations and
+									sales of $15M.
+								</div>
+								<div class="col-3">
+									<svg
+										width="55px"
+										height="60px"
+										viewBox="0 0 55 60"
+										version="1.1"
+										xmlns="http://www.w3.org/2000/svg"
+										xmlns:xlink="http://www.w3.org/1999/xlink"
+									>
+										<title>symbbol</title>
+										<g
+											id="Page-1"
+											stroke="none"
+											stroke-width="1"
+											fill="none"
+											fill-rule="evenodd"
+										>
+											<g
+												id="Artboard"
+												transform="translate(-351.000000, -164.000000)"
+											>
+												<g
+													id="symbol"
+													transform="translate(64.000000, 0.000000)"
+												>
+													<g
+														id="symbbol"
+														transform="translate(287.000000, 164.000000)"
+													>
+														<polygon
+															id="Rectangle--Rectangle--Rectangle"
+															fill="#2CBC63"
+															points="27.2980856 18.6423667 27.2980856 29.4763582 0 10.8339915 0 0 27.2980856 18.6423667"
+														></polygon>
+														<path
+															d="M9.09936188,8.97055393 L9.09936188,33.3759412 C9.09936188,43.178649 17.247208,51.1253137 27.2980856,51.1253137 C37.3489632,51.1253137 45.4968094,43.178649 45.4968094,33.3759412 L45.4968094,8.97055393 L54.5961713,8.97055393 L54.5961713,33.3759412 C54.5961713,48.0800028 42.374402,60 27.2980856,60 C12.2217692,60 0,48.0800028 0,33.3759412 L0,8.97055393 L9.09936188,8.97055393 Z"
+															id="Rectangle--Rectangle--Rectangle"
+															fill="#2CBC63"
+														></path>
+														<polygon
+															id="Rectangle--Rectangle--Rectangle-Copy"
+															fill="#FFFFFF"
+															transform="translate(40.947128, 14.834047) scale(1, -1) translate(-40.947128, -14.834047) "
+															points="54.5961713 18.7382343 54.5961713 29.5722258 27.2980856 10.9298591 27.2980856 0.0958676519 54.5961713 18.7382343"
+														></polygon>
+													</g>
+												</g>
+											</g>
+										</g>
+									</svg>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row pt-5">
+					<div
+						class="col-sm-12 col-md-6 d-flex justify-content-center align-content-center"
+					>
+						<div
+							class="border card-bg-5 d-flex flex-column justify-content-between align-items-center"
+							style="width: 40vw; height: 40vw"
+						>
+							<div
+								class="row pt-3 mt-5 card-border d-flex justify-content-between"
+								style="width: 80%"
+							>
+								<div class="col-8 text-white">
+									<h2 class="responsive-font-h2">
+										Grows Strategic Accounts by 110% Year-Over-Year
+									</h2>
+									<p class="pt-2 fw-bold responsive-font-p">Crypto</p>
+								</div>
+								<div class="col-4 d-flex justify-content-end">
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										width="48"
+										height="48"
+										fill="white"
+										class="bi bi-arrow-right-circle"
+										viewBox="0 0 16 16"
+									>
+										<path
+											fill-rule="evenodd"
+											d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+										/>
+									</svg>
+								</div>
+							</div>
+
+							<div class="row pb-5" style="width: 80%">
+								<div class="col-9 text-white responsive-font-p">
+									Lorem Ipsum is simply dummy text of the printing and
+									typesetting industr
+								</div>
+								<div class="col-3">
+									<svg
+										width="60px"
+										height="60px"
+										viewBox="0 0 60 60"
+										version="1.1"
+										xmlns="http://www.w3.org/2000/svg"
+										xmlns:xlink="http://www.w3.org/1999/xlink"
+									>
+										<title>cos</title>
+										<g
+											id="Page-1"
+											stroke="none"
+											stroke-width="1"
+											fill="none"
+											fill-rule="evenodd"
+										>
+											<g id="cos" fill-rule="nonzero">
+												<g id="Path-Clipped">
+													<path
+														d="M30,0 C41.878411,0 52.1444163,6.90353025 57.0046735,16.9172487 L35.0158692,38.9367675 L18.4277343,22.672526 L1.58387527,39.6443467 C1.63589702,39.7976727 1.68912488,39.9504418 1.74354755,40.102643 C0.614794215,36.94594 0,33.5447663 0,30 C0,13.4314575 13.4314575,0 30,0 Z"
+														id="path-1--Path-â©-path-1"
+														fill="#00BE54"
+													></path>
+													<path
+														d="M57.0046735,16.9172487 C57.0197925,16.948399 57.0348593,16.9795793 57.0498738,17.0107898 L57.0038635,16.9155798 C57.2419498,17.4060382 57.467068,17.9039585 57.6787722,18.4088953 L57.6786428,18.408587 C57.8824738,18.8947455 58.0737565,19.3870915 58.252223,19.8855365 L58.2522392,19.8855817 C58.7846633,21.3726068 59.2030295,22.9139615 59.496777,24.4990562 L59.4967463,24.498891 C59.6893053,25.5379605 59.8283003,26.5956545 59.9107933,27.6691692 L59.9107503,27.6686108 C59.950532,28.1863053 59.977159,28.7071128 59.9903425,29.2312598 L59.9903137,29.2301185 L60,30 L60,30 C60,46.3844475 46.8653612,59.7011358 30.5511087,59.9950395 L30,60 C29.5874702,60 29.1768852,59.9916735 28.7684038,59.9751792 L29.2812907,59.9915598 C29.0868597,59.9869887 28.8928863,59.9805677 28.6993877,59.9723138 L28.7684038,59.9751792 C28.5836097,59.9677173 28.3992458,59.9585838 28.2153273,59.9477935 L28.6993877,59.9723138 C28.4634647,59.9622503 28.2282472,59.9494622 27.9937658,59.9339798 L28.2153273,59.9477935 C28.0058495,59.9355037 27.7969492,59.9210643 27.5886482,59.9044975 L27.9937658,59.9339798 C27.8183112,59.922395 27.6432687,59.9093017 27.4686513,59.8947128 L27.4688145,59.8947265 C27.0601533,59.8605838 26.6539815,59.81827 26.2503005,59.7679358 L26.2506893,59.7679843 C25.8724998,59.7208287 25.4968808,59.6666965 25.1235782,59.6056743 C24.7436585,59.5435737 24.3658987,59.4742877 23.9906835,59.3979987 L24.2586022,59.4511965 C24.0446408,59.409729 23.8314908,59.3659878 23.6191782,59.3199992 L23.9906835,59.3979987 C23.8347392,59.3662918 23.6792343,59.3333753 23.5241793,59.2992595 L23.6191782,59.3199992 C23.4648755,59.286576 23.3110153,59.2519657 23.1576073,59.2161783 L23.5241793,59.2992595 C23.2970293,59.2492808 23.0708447,59.196728 22.8456575,59.1416332 L23.1576073,59.2161783 C22.985821,59.1761035 22.8146018,59.1345527 22.6439638,59.09154 L22.6441678,59.0915913 C22.3350722,59.0136777 22.0280853,58.9310248 21.7230872,58.843665 C21.624592,58.8154557 21.5256657,58.7865655 21.4269525,58.757181 C21.0365267,58.6409552 20.6497782,58.517114 20.2665323,58.3857297 L20.4675245,58.453834 C20.278834,58.390647 20.0909798,58.3256357 19.9039828,58.2588208 L20.2665323,58.3857297 C20.0778915,58.32106 19.8900993,58.2545627 19.7031768,58.186259 L19.9039828,58.2588208 C19.7588407,58.2069608 19.6142148,58.1540145 19.4701153,58.0999913 L19.7031768,58.186259 C19.5240998,58.120822 19.3458212,58.0537273 19.1683592,57.9849932 L19.4701153,58.0999913 C19.2431972,58.0149195 19.0175838,57.9271778 18.7933137,57.8368045 L19.1683592,57.9849932 C19.0168603,57.926315 18.8659568,57.866442 18.71566,57.8053858 L18.7933137,57.8368045 C18.6337952,57.7725238 18.4749562,57.7069118 18.3168105,57.6399823 L18.71566,57.8053858 C18.5293635,57.7297052 18.3439993,57.6522065 18.1595895,57.572912 L18.1586537,57.5725097 C17.9278013,57.4732452 17.6975208,57.3707412 17.468792,57.2654437 C17.187896,57.1361355 16.9089517,57.0024207 16.632435,56.8645622 L16.8401153,56.9670992 C16.6960502,56.8966637 16.5526326,56.8251078 16.4098743,56.7524428 L16.632435,56.8645622 C16.4785228,56.7878287 16.3253627,56.7098113 16.1729688,56.6305242 L16.4098743,56.7524428 C16.2169223,56.6542288 16.0251745,56.5539888 15.8346589,56.4517507 L16.1729688,56.6305242 C16.0156091,56.5486535 15.8590662,56.465429 15.7033558,56.380866 L15.8346589,56.4517507 C15.7018572,56.3804838 15.5696541,56.3082463 15.4380593,56.2350475 L15.7033558,56.380866 C15.5147821,56.2784557 15.3274292,56.1740825 15.1413246,56.0677738 L15.4380593,56.2350475 C15.2784757,56.14628 15.1197866,56.0560985 14.962009,55.9645203 L15.1413246,56.0677738 C14.9782841,55.97464 14.8162017,55.8800207 14.6550957,55.7839343 L14.962009,55.9645203 C14.8090518,55.8757402 14.6569513,55.785647 14.5057227,55.6942565 L14.6550957,55.7839343 C14.4790948,55.6789645 14.3042593,55.5722437 14.1306133,55.463796 L14.5057227,55.6942565 C14.341332,55.5949118 14.1779716,55.494034 14.0156614,55.391643 L14.015887,55.3917853 C13.4930413,55.0619557 12.9813092,54.7165792 12.4811265,54.356175 L12.4815956,54.356513 C12.1666661,54.1295922 11.8567707,53.8970695 11.5516045,53.6587715 L11.7021285,53.7755485 C11.5925859,53.6911183 11.483643,53.6059482 11.3753074,53.5200452 L11.5516045,53.6587715 C11.4006317,53.5408798 11.2508164,53.4215748 11.1021785,53.300876 L11.3753074,53.5200452 C11.2139637,53.3921105 11.053967,53.2625507 10.895342,53.1313905 L11.1021785,53.300876 C10.9718733,53.195064 10.8424731,53.0881812 10.7139911,52.9802405 L10.7143711,52.9805597 C10.3062655,52.6377008 9.90778738,52.2845102 9.51898525,51.9210968 C9.11008985,51.5389182 8.71146028,51.1449785 8.32405612,50.740207 L8.49425847,50.9166002 C8.37217045,50.7910952 8.25117162,50.6645252 8.13127723,50.5369053 L8.13050242,50.5360807 C7.34065967,49.6953447 6.59806863,48.8081373 5.90788033,47.8796595 L5.9078884,47.8796705 C5.73600732,47.648447 5.56738395,47.414675 5.40207777,47.1784113 C5.24378103,46.952166 5.0885233,46.7236315 4.93636687,46.4928713 C4.59381177,45.9733425 4.26711508,45.4427747 3.95680025,44.9016125 L4.05516942,45.071863 C3.9587217,44.906195 3.8638153,44.7395192 3.77046985,44.5718552 L3.95680025,44.9016125 C3.85358083,44.7216068 3.75217392,44.5404288 3.6526044,44.3581037 L3.77046985,44.5718552 C3.69437113,44.4351692 3.61930985,44.2978263 3.54529665,44.1598373 L3.6526044,44.3581037 C3.56416768,44.1961642 3.47718048,44.0333195 3.3916602,43.8695873 L3.39134117,43.8689765 C2.93136682,42.9883358 2.51356885,42.0813705 2.14098547,41.1514107 L2.23891562,41.3927812 C2.16608872,41.2155108 2.09491038,41.0373892 2.02539968,40.8584352 L2.02538573,40.8583993 C1.9281771,40.6081373 1.83421687,40.3562113 1.7435712,40.1027092 L1.58387527,39.6443467 L1.58387527,39.6443467 L18.4277343,22.672526 L35.0158692,38.9367675 L57.0046735,16.9172487 Z"
+														id="Path-â©-path-1-â©-path-1"
+														fill="#FFFFFF"
+													></path>
+												</g>
+											</g>
+										</g>
+									</svg>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div
+						class="col-sm-12 col-md-6 d-flex justify-content-center align-content-center"
+					>
+						<div
+							class="border card-bg-6 d-flex flex-column justify-content-between align-items-center"
+							style="width: 40vw; height: 40vw"
+						>
+							<div
+								class="row pt-3 mt-5 card-border d-flex justify-content-between"
+								style="width: 80%"
+							>
+								<div class="col-8 text-white">
+									<h2 class="responsive-font-h2">
+										Global Expansion Strategy Guides Financial Firm
+									</h2>
+									<p class="pt-2 fw-bold responsive-font-p">Services</p>
+								</div>
+								<div class="col-4 d-flex justify-content-end">
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										width="48"
+										height="48"
+										fill="white"
+										class="bi bi-arrow-right-circle"
+										viewBox="0 0 16 16"
+									>
+										<path
+											fill-rule="evenodd"
+											d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+										/>
+									</svg>
+								</div>
+							</div>
+
+							<div class="row pb-5" style="width: 80%">
+								<div class="col-9 text-white responsive-font-p">
+									A company that provides insurance and investment-related
+									products and service
+								</div>
+								<div class="col-3">
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										height="48"
+										width="48"
+										viewBox="0 0 48 48"
+									>
+										<title>logo envato</title>
+										<g fill="#73b727" class="nc-icon-wrapper">
+											<path
+												fill="#73b727"
+												d="M38.9,0.3c2.2,1.1,11.1,19.9,3.5,36.4C36.3,49.8,21,49.8,13.2,45.2c-6.6-4-16.7-16.5-5.5-31.8 c0.5-0.6,1.6-0.5,1.4,1.2c-0.2,1.2-1.8,10.2,1.3,14.1c1.4,1.9,1.7,0.6,1.7,0.6s-0.2-13,9.8-22.9C28.3,0.4,37.1-0.6,38.9,0.3z"
+											></path>
+										</g>
+									</svg>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+
+  <!-- Aside -->
+
+  <aside class="py-5">
+	<div class="container mx-auto">
+	  <h1 class="d-flex justify-content-center py-4 my-4 pt-5 text-center">
+		Your Future in Finance Starts Here
+	  </h1>
+	  <p class="d-flex justify-content-center py-4 my-4 textGray">
+		Learn more about our commercial loan broker training program & <br />
+		join our family of over 700 successful entrepreneurs.
+	  </p>
+	  <div class="d-grid gap-2 col-6 mx-auto">
+		<button class="btn btn-primary mx-auto py-3" type="button">
+		  Get My Free Proposal
+		</button>
+		<p class="d-flex justify-content-center py-4 my-4 textGray">
+		  Or call us now at 0712 610 33 181
+		</p>
+	  </div>
+	</div>
+  </aside>
+
+  <!-- FINE ASIDE -->
+
+		<!-- FOOTER -->
+
+		<footer class="py-5">
+			<div class="container mx-auto">
+				<div class="row">
+					<div class="col-lg-2 col-6">
+						<h5>Follow Us</h5>
+						<ul class="nav flex-column">
+							<li class="nav-item mb-2">
+								<a href="#" class="nav-link p-0">Facebook</a>
+							</li>
+							<li class="nav-item mb-2">
+								<a href="#" class="nav-link p-0">Instagram</a>
+							</li>
+							<li class="nav-item mb-2">
+								<a href="#" class="nav-link p-0">Twitter</a>
+							</li>
+							<li class="nav-item mb-2">
+								<a href="#" class="nav-link p-0">Linkedin</a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="col-lg-2 col-6">
+						<h5>Company</h5>
+						<ul class="nav flex-column">
+							<li class="nav-item mb-2">
+								<a href="#" class="nav-link p-0">About Us</a>
+							</li>
+							<li class="nav-item mb-2">
+								<a href="#" class="nav-link p-0">Our People</a>
+							</li>
+							<li class="nav-item mb-2">
+								<a href="#" class="nav-link p-0">Blog & Insights</a>
+							</li>
+							<li class="nav-item mb-2">
+								<a href="#" class="nav-link p-0">Contact Us</a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="col-lg-2 col-6">
+						<h5>Services</h5>
+						<ul class="nav flex-column">
+							<li class="nav-item mb-2">
+								<a href="#" class="nav-link p-0">Accounting</a>
+							</li>
+							<li class="nav-item mb-2">
+								<a href="#" class="nav-link p-0">Financial</a>
+							</li>
+							<li class="nav-item mb-2">
+								<a href="#" class="nav-link p-0">Investments</a>
+							</li>
+							<li class="nav-item mb-2">
+								<a href="#" class="nav-link p-0">Tax & Audit</a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="col-lg-2 col-6">
+						<h5>Industries</h5>
+						<ul class="nav flex-column">
+							<li class="nav-item mb-2">
+								<a href="#" class="nav-link p-0">Automotive</a>
+							</li>
+							<li class="nav-item mb-2">
+								<a href="#" class="nav-link p-0">Banking</a>
+							</li>
+							<li class="nav-item mb-2">
+								<a href="#" class="nav-link p-0">Insurance</a>
+							</li>
+							<li class="nav-item mb-2">
+								<a href="#" class="nav-link p-0">Healthcare</a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="col-lg-4 col-12">
+						<form>
+							<p>
+								By providing your e-mail address, you are consenting to receive
+								press releases, presentations and other information concerning
+								FinLab.
+							</p>
+							<div class="d-flex w-100 gap-2">
+								<label for="newsletter1" class="visually-hidden"
+									>Email address</label
+								>
+								<input
+									id="newsletter1"
+									type="text"
+									class="form-control"
+									placeholder="Email address"
+								/>
+								<button class="btn btn-primary" type="button">Subscribe</button>
+							</div>
+						</form>
+					</div>
+				</div>
+				<p class="pt-5 Graytext">
+					Address: 1270 Beverley Rd Brooklyn, New York 11226 United States.
+					<br />
+					Phone: <a href="#" class="greyLink">0712 610 33 181</a> | Mail:
+					<a href="#" class="greyLink">info@example.com</a>
+				</p>
+
+				<div class="d-flex justify-content-center py-4 my-4 border-top pt-5">
+					<p class="Graytext">
+						Copyright © 2021 LineThemes. Designed and Developed by
+						<a href="#" class="greyLink">LineThemes</a> only on
+						<a href="#" class="greyLink">Envato Market.</a>
+					</p>
+					<ul class="list-unstyled d-flex">
+						<li class="ms-3">
+							<a class="link-dark" href="#"
+								><svg class="bi" width="24" height="24">
+									<use xlink:href="#twitter"></use></svg
+							></a>
+						</li>
+						<li class="ms-3">
+							<a class="link-dark" href="#"
+								><svg class="bi" width="24" height="24">
+									<use xlink:href="#instagram"></use></svg
+							></a>
+						</li>
+						<li class="ms-3">
+							<a class="link-dark" href="#"
+								><svg class="bi" width="24" height="24">
+									<use xlink:href="#facebook"></use></svg
+							></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+			crossorigin="anonymous"
+		></script>
+		<script src="assets/index.js" type="module"></script>
+	</body>
+</html>

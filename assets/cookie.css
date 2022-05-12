@@ -1,0 +1,22 @@
+/* COOKIES */
+
+.biscotto{
+    background-color: #11465b;
+    color: white;
+    box-shadow: 8px 5px 10px gray;
+    position: fixed;
+    width: 20vw;
+    left: 0;
+    text-align: center;
+    bottom:  10px;
+    z-index: 1;
+}
+
+
+
+@media screen and (max-width:1000px){
+    .biscotto{
+        width: 100vw;
+        z-index: 900;
+    }
+}

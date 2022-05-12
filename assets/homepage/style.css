@@ -1,0 +1,387 @@
+.title-span{
+    color: #2cbc63;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+body{
+    overflow-x: hidden;
+
+}
+
+.title-link{
+    color: #0d4359;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.title-link:hover{
+    color: #0d4359;
+}
+
+/* HEADER */
+
+header{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.style_navbar{
+    background-color: #1741551b;
+}
+
+.navbar_row{
+    border-bottom: 1px solid white;
+}
+
+.modal_style{
+    background-color: #2CBC63;
+    border: none;
+}
+
+.button_header{
+    background-color: white;
+    border: none;
+}
+
+.button_offcanvas{
+    height: 50%;
+    width: 5%;
+    background-color: white;
+    border: none;
+}
+
+.borderless{
+    border: none;
+}
+
+.formButton{
+    background-color: #2CBC63;
+}
+
+.greenLink{
+    color: #2CBC63;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.textgray{
+    color:#798897;
+}
+
+.canvasClose{
+    background-color: #2CBC63;
+}
+
+.modal-backdrop{
+    z-index: 0;
+}
+
+/* SECTION HERO */
+
+.hero-roundbutton{
+    border-radius: 30px;
+   font-size: 1.5vw;
+   }
+
+   .hero-text-color{
+       color: white;
+   }
+
+   .hero-position{
+       top: 45%;
+       font-size: 10rem;
+       width:30%
+   }
+
+   .hero-adaptive-text-size{
+       font-size: 3vw;
+   }
+
+   .carousel-control-next, .carousel-control-prev{
+       z-index: 0;
+   }
+
+
+/* WE HAVE DIRECT IMPACT */
+
+
+.sec-wehave{
+    background-color: #013950;
+}
+
+.sec-wehave p{
+    color: #8ea7b2;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.sec-wehave>.container-fluid{
+    background-color: #ffffff;
+    border-bottom: .5px solid #e5e5e5;
+}
+
+.sec-wehave >.container-fluid>span{
+    color: #798897;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 55px;
+}
+
+.sec-wehave >.container-fluid>span>a{
+    color: #2cbc63;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+
+/* SERVICES WE PROVIDE*/
+
+
+.sec-servicesweprovide{
+    position: relative;
+    z-index: -2;
+    overflow: hidden;
+}
+.sec-servicesweprovide >* h3{
+    font-size: 54px;
+    font-weight: 700;
+    max-width: 15ch;
+}
+
+.sec-servicesweprovide >* h2 {
+  font-size: 5vw;
+  color:#2cbc63
+
+}
+
+.sec-servicesweprovide >* h4 {
+    font-size: 24px;
+  
+  }
+
+.servicesweprovide-lightgray{
+    color: #9EA4B1;
+}
+
+.sec-servicesweprovide button{
+    width:20%;
+}
+
+.services-we-provide-bg-image{
+    position: absolute;
+    bottom: 0;
+    right: -240px;
+    z-index: -1;
+    max-height: 350px;
+}
+
+/* INDUSTRIES WE SERVE */
+
+
+.sec-industries{
+    padding-top: 70px;
+}
+
+.sec-industries >* h3{
+    font-size: 54px;
+    font-weight: 700;
+    max-width: 15ch;
+}
+
+.sec-industries ul{
+    border-top: .5px solid #e5e5e5;
+    list-style-type: none;
+}
+
+.sec-industries ul li{
+    padding-top: 1rem;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.sec-industries ul li:first-child{
+    padding-top: 30px;
+}
+
+.sec-industries ul li a{
+    text-decoration: none;
+    color: #5c667d;
+}
+
+.sec-industries ul li a:hover{
+    color: #2cbc63
+}
+
+.sec-industries .row img{
+    width: 370px;
+    height: 246px;
+}
+
+.sec-industries >.container-fluid>span{
+    color: #798897;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 55px;
+}
+
+.sec-industries >.container-fluid>span>a{
+    color: #2cbc63;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+
+/* WHY CHOOSE US */
+
+.textGreen{
+    color: #2CBC63;
+}
+
+.textGray{
+    color: gray;
+}
+
+.textGreen{
+    color: #2CBC63;
+}
+.sec-whychoose .card-body h1{
+    font-weight: lighter;
+    color: #A69CAA;
+}
+.sec-whychoose .card{
+    border-top: none;
+    border-bottom: none;
+}
+
+.left{
+    border-left: none;
+}
+
+.right{
+    border-right: none;
+}
+
+/* OUR PEOPLE */
+
+.sec-our-people{
+
+    background: rgb(255,255,255);
+background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(165,254,251,0.2) 100%);
+}
+
+.sec-our-people >* h3{
+    font-size: 54px;
+    font-weight: 700;
+    max-width: 15ch;
+}
+
+.sec-our-people-border-color{
+    border-bottom: 10px solid #013950;
+}
+
+
+/* PORTRAIT */
+
+.rounded-pill{
+    background-color: #e0ecf0;
+    color: black;
+    border: none;
+}
+
+
+
+/* FROM OUR BLOG - FINANCE NEWS AND GUIDELINES */
+
+.sec-finance > .container > .row > div:last-of-type > a{
+    color:#798897
+}
+
+.sec-finance > .container > .row > div:last-of-type > a:hover{
+    color:#798897
+}
+
+.finance-link{
+    color: #023a51;
+    font-size: 17px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.finance-link:hover{
+    color: #023a51;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.sec-finance .container{
+    border-bottom: .5px solid #e5e5e5;
+}
+
+
+/* SOME A FEW OF OUR CLIENTS, PARTNERS & ACCREDITATIONS */
+
+.sec-clients > .container > .row > div:last-of-type > a{
+    color:#798897
+}
+
+.sec-clients > .container > .row > div:last-of-type > a:hover{
+    color:#798897
+}
+
+.sec-clients img{
+    width: 208px;
+    height: 108px;
+    border: 1px solid silver;
+}
+
+
+/* FOOTER & ASIDE */
+
+footer{
+    background-color: #033b51;
+}
+
+
+.col-lg-2 a{
+    color: #A6BAC2;
+}
+
+.col-lg-2 h5{
+    color: white;
+}
+
+.Graytext, .col-lg-4 p{
+    color: #A69CAA;
+}
+.greyLink {
+    color: #A6BAC2;
+    text-decoration: none;
+}
+
+.btn-primary{
+    border: none;
+    background-color: #2CBC63;
+}
+
+aside h1{
+    color: white;
+}
+
+aside{
+    background-color: #033b51;
+    background-image:url(https://fin.21lab.co/wp-content/uploads/2021/09/globe-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+
+
+
